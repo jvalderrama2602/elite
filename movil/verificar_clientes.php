@@ -4,7 +4,6 @@ require_once '../conex.php';
 /*movil*/
 $usuario = $_POST['usuario'];
 $password = md5($_POST['password']);
-
 	$consulta = "SELECT idclientes,nombre,password,ingresa,cambio,email FROM pbrh_users WHERE usuario='$usuario'";
 	$resultado = $conex->query($consulta);
 	$fila = $resultado -> fetch_array();
