@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /*.js
+Allow: /*.css
+
+Sitemap:https://eliteescortmadrid.com/sitemap.xml
+
+

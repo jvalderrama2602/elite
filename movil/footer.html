@@ -1,0 +1,80 @@
+			<footer class="ds page_footer section_padding_70">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-lg-3 to_animate" data-animation="scaleAppear">
+							<div class="widget widget_text">
+								<a href="/movil/" class="logo logo_image bottommargin_10">
+									<!--<h1>Elite
+										<span class="muellerhoff">Escorts</span>
+									</h1>-->
+									<img src="/images/logoelite2.png" alt="Logo Elite">
+								</a>
+								<p>
+									Contacto: +34 693 60 88 61<br>
+									Email: Info@eliteescortmadrid.com<br>
+									Horario: 10:00 a 24:00<br>
+									<!--<i style="font-size:24px" class="fa fa-cc-visa"></i>
+									<i style="font-size:24px" class="fa fa-cc-mastercard"></i>-->
+								</p>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="/js/compressed.js"></script>
+	<script src="/js/main.js"></script>
+
+<script type="text/javascript">
+
+	var owl = $('#slider-7');
+	owl.owlCarousel({
+    items:3,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    controlNav: false
+});
+
+	var owl = $('#slider-9');
+	owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});
+
+	$hook = $('.flexslider');
+		$hook.flexslider({
+        animation: $hook.data('animation'),
+        controlNav: $hook.data('control-nav'),
+        slideshow: $hook.data('slideshow'),
+        startAt: $hook.data('start-at'),
+        pauseOnHover: true,
+        controlNav: false,
+        after: function(slider){
+         // clears the interval
+         slider.stop();
+         // grab the duration to show this slide
+         slider.vars.slideshowSpeed = $(slider.slides[slider.currentSlide]).data('duration');
+         // start the interval
+         slider.play();
+        }
+       });
+</script>
+
+
+
+
+</body>
+</html>
