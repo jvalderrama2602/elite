@@ -7,7 +7,8 @@ $correocliente = $_SESSION["correo"];
 require_once '../conex.php';
 if (empty ($strTitle)) {$strTitle = $arreglosSeo["promociones"]["tituloseo"];}
 if (empty ($strCaption)) {$strCaption = $arreglosSeo["promociones"]["metadescripcion"]; }
-if (empty ($canonical)) {$canonical = $arreglosSeo["promociones"]["canopc"];}
+if (empty ($canonical)) {$canonical = $arreglosSeo["promociones"]["canomovil"];}
+if (empty ($canopc)) {$canopc = $arreglosSeo["promociones"]["canopc"]; }
 if (empty ($desc1)) {$desc1 = $arreglosSeo["promociones"]["desc1"];}
 if (empty ($video)) {$video = $arreglosSeo["promociones"]["video"];}
 if (empty ($imagen)) {$imagen = $arreglosSeo["promociones"]["imagen"];}

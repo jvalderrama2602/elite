@@ -10,6 +10,7 @@ require_once 'conex.php';
 if (empty ($strTitle)) {$strTitle = $arreglosSeo["promociones"]["tituloseo"];}
 if (empty ($strCaption)) {$strCaption = $arreglosSeo["promociones"]["metadescripcion"]; }
 if (empty ($canonical)) {$canonical = $arreglosSeo["promociones"]["canopc"];}
+if (empty ($canomovil)) {$canomovil = $arreglosSeo["promociones"]["canomovil"];}
 if (empty ($desc1)) {$desc1 = $arreglosSeo["promociones"]["desc1"];}
 if (empty ($video)) {$video = $arreglosSeo["promociones"]["video"];}
 if (empty ($imagen)) {$imagen = $arreglosSeo["promociones"]["imagen"];}
@@ -18,6 +19,7 @@ if (empty ($precio)) {$precio = $arreglosSeo["promociones"]["precio"];}
 if (empty ($video2)) {$video2 = $arreglosSeo["promociones"]["video2"];}
 if (empty ($imagen2)) {$imagen2 = $arreglosSeo["promociones"]["imagen2"];}
 if (empty ($youtube)) {$youtube = $arreglosSeo["promociones"]["youtube"];}
+
 
 
 

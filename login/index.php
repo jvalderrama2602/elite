@@ -9,6 +9,7 @@ if (empty ($strTitle)) {
 if (empty ($strCaption)) {
 	$strCaption = $arreglosSeo[$nombre1]["metadescripcion"]; }
 if (empty ($canonical)) {$canonical = $arreglosSeo[$nombre1]["canopc"];}
+if (empty ($canomovil)) {$canomovil = $arreglosSeo[$nombre1]["canomovil"];}
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
