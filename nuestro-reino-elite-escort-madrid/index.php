@@ -122,7 +122,7 @@ $( document ).ready(function() {
 													<h1 class="big margin_0">Nuestro Reino</h1>
 													<h2 class="muellerhoff topmargin_5 bottommargin_50 highlight">by Julia Rey</h2>
 												</div>
-												<p style="" id="p">En élite escort Madrid sabemos lo importante que es para ti no solo la compañía de una dama especial sino también qué el lugar de encuentro sea un sitio confortable, moderno y con gusto, en el que te encuentres cómodo y relajado con todas las comodidades que puedas necesitar. Dispones de una amplia gama de bebidas para refrescarte cuando desees, además de todo tipo de accesorios que te harán sentir como en casa. Esponjas, zapatillas, productos de aseo están a tu disposición, cuidamos hasta el más mínimo detalle.
+												<p style="" id="p">En Elite Escort Madrid sabemos lo importante que es para ti no solo la compañía de una dama especial sino también qué el lugar de encuentro sea un sitio confortable, moderno y con gusto, en el que te encuentres cómodo y relajado con todas las comodidades que puedas necesitar. Dispones de una amplia gama de bebidas para refrescarte cuando desees, además de todo tipo de accesorios que te harán sentir como en casa. Esponjas, zapatillas, productos de aseo están a tu disposición, cuidamos hasta el más mínimo detalle.
 Podrás encontrar a 5 min de Cuzco apartamentos individuales para garantizarte la máxima intimidad y discreción, en una calle discreta y con acceso privado al edificio.
 Disfruta de todas las comodidades y discreción necesarias para que tú encuentro sea perfecto en la compañía y la estancia.</p>
 
