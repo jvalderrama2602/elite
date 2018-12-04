@@ -202,6 +202,14 @@ $arreglosSeo = array(
 "canopc" => "https://eliteescortmadrid.com/escorts-madrid/alicia/" ,
 "canomovil" => "https://eliteescortmadrid.com/movil/escorts-madrid/alicia/" ),
 
+"estrella" => array (
+    "tituloseo" => "Estrella, escort muy sensual | Escorts de lujo en Madrid" ,
+    "metadescripcion" => "'Dama de compañía venezolana en Madrid. Estrella, es una bellísima escort y acompañante de lujo para gozar de su saber estar y su belleza en reuniones o eventos. Disponible en el mejor horario. Visitanos!'" ,
+    "author" => "Julia Rey" ,
+    "contact" => "info@eliteescortmadrid.com" ,
+    "canopc" => "https://eliteescortmadrid.com/escorts-madrid/estrella/" ,
+    "canomovil" => "https://eliteescortmadrid.com/movil/escorts-madrid/estrella/" ),
+
 
 
 "login" => array (
