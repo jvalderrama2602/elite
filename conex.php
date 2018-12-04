@@ -193,6 +193,17 @@ $arreglosSeo = array(
 "canopc" => "https://eliteescortmadrid.com/escorts-madrid/jazmín/" ,
 "canomovil" => "https://eliteescortmadrid.com/movil/escorts-madrid/jazmín/" ),
 
+/*16*/
+"alicia" => array (
+"tituloseo" => "Alicia, escort muy sensual | Escorts de lujo en Madrid" ,
+"metadescripcion" => "'A mi lado cada segundo se convertirá en una experiencia que no olvidarás, sentirás que el tiempo vuela mientras admiras mi belleza, mis delicados pechos naturales así como mi especial modo de compartir en la intimidad.'" ,
+"author" => "Julia Rey" ,
+"contact" => "info@eliteescortmadrid.com" ,
+"canopc" => "https://eliteescortmadrid.com/escorts-madrid/alicia/" ,
+"canomovil" => "https://eliteescortmadrid.com/movil/escorts-madrid/alicia/" ),
+
+
+
 "login" => array (
 "tituloseo" => "Login Zona Amiga | Señoritas y Escorts de lujo en Madrid" ,
 "metadescripcion" => "'Inicia sesión en Elite Escort Madrid. Disfruta de promociones especiales que ofrece nuestra Zona Amiga. Acumula citas continuas con nuestas damas de compañía y recibe promociones exlusivas. Ven a disfurtar!'" ,

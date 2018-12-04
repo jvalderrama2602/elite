@@ -1,6 +1,16 @@
 User-agent: *
 Allow: /*.js
 Allow: /*.css
+Disallow: /wp-content/
+Disallow: /.git/
+Disallow: /.quarantine/
+Disallow: /.tmb/
+Disallow: /.well-known/
+Disallow: /cgi-bin/
+Disallow: /fonts/
+Disallow: /Mobile-Detect-master/
+Disallow: /phpmailer/
+Disallow: /twitter/
 
 Sitemap:https://eliteescortmadrid.com/sitemap.xml
 
