@@ -153,7 +153,7 @@ $('#videoLink')
 											<div class="col-md-8">
 												<div class="item-content">
 													<h3 class="entry-title topmargin_0">
-														Reinas de <span class="highlight">la semana</span><br>
+														Reina de <span class="highlight">la semana</span><br>
 														<?php print $arreglosSeo["promociones"]["titulo1"]; ?>
 													</h3>
 													<p style="color:#ffffff">
@@ -171,7 +171,7 @@ $('#videoLink')
 										</div>
 									</div>
 								</div>
-
+<!--
 								<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">
 										<div class="row">
@@ -187,7 +187,7 @@ $('#videoLink')
 												}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<! --	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -227,7 +227,7 @@ $('#videoLink')
 												}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -267,7 +267,7 @@ $('#videoLink')
 												}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -308,7 +308,7 @@ $('#videoLink')
 												}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -332,7 +332,7 @@ $('#videoLink')
 										</div>
 									</div>
 								</div>
-
+-->
 
 								<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">
@@ -475,7 +475,7 @@ $('#videoLink')
 								</div>
 
 
-
+<!--
 
 								<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">
@@ -492,7 +492,7 @@ $('#videoLink')
 													}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -514,7 +514,7 @@ $('#videoLink')
 										</div>
 									</div>
 								</div>
-
+-->
 								<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">
 										<div class="row">
@@ -552,7 +552,7 @@ $('#videoLink')
 										</div>
 									</div>
 								</div>
-
+<!--
 								<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">
 										<div class="row">
@@ -568,7 +568,7 @@ $('#videoLink')
 													}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -606,7 +606,7 @@ $('#videoLink')
 													}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -644,7 +644,7 @@ $('#videoLink')
 													}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -682,7 +682,7 @@ $('#videoLink')
 													}
 												?>
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -705,7 +705,7 @@ $('#videoLink')
 									</div>
 								</div>
 
-
+-->
 
 
 

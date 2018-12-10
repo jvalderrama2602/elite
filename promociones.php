@@ -181,7 +181,7 @@ $('#videoLink')
 											<div class="item-content .about-content" style="padding: 15px">
 
 												<h2 class="big topmargin_0 bottommargin_30">
-													<span class="highlight">Reinas de la Semana</span>
+													<span class="highlight">Reina de la Semana</span>
 												</h2>
 											</div>
 										</div>
@@ -233,7 +233,7 @@ $('#videoLink')
 
 									</div>
 
-
+<!--
 <div class="row">
 <div class="col-md-6">
 	<div class="item-media entry-thumbnail">
@@ -254,7 +254,7 @@ $('#videoLink')
 	<div class="item-content .about-content" style="padding-top: 0px">
 		<h3 class="big topmargin_0 bottommargin_30">
 		<?php print $arreglosSeo["promociones"]["titulo2"]; ?>
-			<!--Reina de	<span class="highlight">La semana</span>-->
+			<!- -Reina de	<span class="highlight">La semana</span>- ->
 		</h3>
 		<p style="color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc2"]; ?> </p>
 		<h2 class="big topmargin_0 bottommargin_30">
@@ -286,7 +286,7 @@ $('#videoLink')
 	<div class="item-content .about-content" style="padding-top: 0px">
 		<h3 class="big topmargin_0 bottommargin_30">
 		<?php print $arreglosSeo["promociones"]["titulo3"]; ?>
-			<!--Reina de	<span class="highlight">La semana</span>-->
+			<!- -Reina de	<span class="highlight">La semana</span>- ->
 		</h3>
 		<p style="color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc3"]; ?> </p>
 		<h2 class="big topmargin_0 bottommargin_30">
@@ -318,7 +318,7 @@ $('#videoLink')
 	<div class="item-content .about-content" style="padding-top: 0px">
 		<h3 class="big topmargin_0 bottommargin_30">
 		<?php print $arreglosSeo["promociones"]["titulo4"]; ?>
-			<!--Reina de	<span class="highlight">La semana</span>-->
+			<!- -Reina de	<span class="highlight">La semana</span>- ->
 		</h3>
 		<p style="color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc4"]; ?> </p>
 		<h2 class="big topmargin_0 bottommargin_30">
@@ -351,7 +351,7 @@ $('#videoLink')
 	<div class="item-content .about-content" style="padding-top: 0px">
 		<h3 class="big topmargin_0 bottommargin_30">
 		<?php print $arreglosSeo["promociones"]["titulo5"]; ?>
-			<!--Reina de	<span class="highlight">La semana</span>-->
+			<!- -Reina de	<span class="highlight">La semana</span>- ->
 		</h3>
 		<p style="color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc5"]; ?> </p>
 		<h2 class="big topmargin_0 bottommargin_30">
@@ -361,7 +361,7 @@ $('#videoLink')
 		<a href="javascript:reservar_10()" class="theme_button color1 topmargin_20" style="font-size: 20px"><i class="rt-icon2-whatsapp"> </i> 150€ &nbsp;	   Reservar</a></p>
 	</div>
 </div>
-</div>
+</div>-->
 
 
 
@@ -471,12 +471,12 @@ $('#videoLink')
 									<div class="col-md-12">
 									<div class="item-content .about-content">
 										<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-											<span class="highlight">Promociones Semanales</span>
+											<span class="highlight">Promoción Semanal</span>
 										</h2>
 									</div>
 								</div>
 
-								<div class="col-md-6">
+							<!--	<div class="col-md-6">
 											<div class="item-content .about-content">
 												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
 													<span class="highlight"><?php echo $arreglosSeo["promociones"]["titulo6"]; ?></span>
@@ -506,7 +506,7 @@ $('#videoLink')
 											</div>
 										</div>
 									</div>
-								</div>
+								</div>-->
 							</article>
 
 							<article class="post format-small-image with_background">
@@ -545,7 +545,7 @@ $('#videoLink')
 									</div>
 								</div>
 							</article>
-
+<!--
 								<article class="post format-small-image with_background">
 								<div class="side-item content-padding">
 								<div class="row">
@@ -695,7 +695,7 @@ $('#videoLink')
 								</div>
 							</article>
 
-
+-->
 
 				
 

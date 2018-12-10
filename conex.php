@@ -286,13 +286,13 @@ Es una escort muy recomendable y por la que recibo muchas felicitaciones.<br>Si 
 "imagen5" => "/images/Sandra-Madrid.jpg",
 
 "titulo6"=> "Tienes tiempo libre?",
-"desc6" => "Esta semana ……….. os regala 15 minutos más extra de masaje o lo quieras",
+"desc6" => "Esta semana Carla os regala 15 minutos más extra de masaje o lo quieras",
 "precio6" => "",
 "video6" => "",
-"imagen6" => "/images/Laura/promo-laura.jpg",
+"imagen6" => "/images/Carla/promo-carla.jpg",
 
 "titulo7"=> "Disfruta el doble",
-"desc7" => "Esta semana de dos horas de intensa compañía con ……",
+"desc7" => "Esta semana de dos horas de intensa compañía con Sandra",
 "precio7" => "2 horas 300€",
 "video7" => "",
 "imagen7" => "/images/Sandra-Madrid.jpg",
