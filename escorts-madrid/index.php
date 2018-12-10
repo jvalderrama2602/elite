@@ -86,6 +86,33 @@ $( document ).ready(function() {
 				</div>
 				<!-- eof flexslider -->
 			</section>
+
+<!--<div class="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+
+									<li class="breadcrumb__el" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a href="https://romsmania.cc" itemprop="item" class="breadcrumb__link"><span itemprop="name">Home</span></a>
+						<meta itemprop="position" content="1">
+					</li>
+									<li class="breadcrumb__el" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a href="https://romsmania.cc/roms" itemprop="item" class="breadcrumb__link"><span itemprop="name">ROMS</span></a>
+						<meta itemprop="position" content="2">
+					</li>
+									<li class="breadcrumb__el" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a href="https://romsmania.cc/roms/nintendo-wii" itemprop="item" class="breadcrumb__link"><span itemprop="name">Nintendo Wii</span></a>
+						<meta itemprop="position" content="3">
+					</li>
+									<li class="breadcrumb__el" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a href="" itemprop="item" class="breadcrumb__link"><span itemprop="name">Super Smash Bros Brawl</span></a>
+						<meta itemprop="position" content="4">
+					</li>
+				
+			</ul>
+		</div>
+	</div>-->
+
+
 <section class="ds parallax calltoaction section_pad1ding_100" style="background-image:url(/images/background.jpg)">
 <?php include("fotos-escort.php"); ?>
 </section>

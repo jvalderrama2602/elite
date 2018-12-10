@@ -10,14 +10,13 @@ if (empty ($strCaption)) {$strCaption = $arreglosSeo["promociones"]["metadescrip
 if (empty ($canonical)) {$canonical = $arreglosSeo["promociones"]["canomovil"];}
 if (empty ($canopc)) {$canopc = $arreglosSeo["promociones"]["canopc"]; }
 if (empty ($desc1)) {$desc1 = $arreglosSeo["promociones"]["desc1"];}
-if (empty ($video)) {$video = $arreglosSeo["promociones"]["video"];}
-if (empty ($imagen)) {$imagen = $arreglosSeo["promociones"]["imagen"];}
+if (empty ($video1)) {$video1 = $arreglosSeo["promociones"]["video1"];}
+if (empty ($imagen1)) {$imagen1 = $arreglosSeo["promociones"]["imagen1"];}
 if (empty ($desc2)) {$desc2 = $arreglosSeo["promociones"]["desc2"];}
-if (empty ($precio)) {$precio = $arreglosSeo["promociones"]["precio"];}
+if (empty ($precio2)) {$precio2 = $arreglosSeo["promociones"]["precio2"];}
 if (empty ($video2)) {$video2 = $arreglosSeo["promociones"]["video2"];}
 if (empty ($imagen2)) {$imagen2 = $arreglosSeo["promociones"]["imagen2"];}
 if (empty ($youtube)) {$youtube = $arreglosSeo["promociones"]["youtube"];}
-
 ?>
 
 
@@ -136,13 +135,13 @@ $('#videoLink')
 											<div class="col-md-4">
 												<div class="item-media">
 													<?php
-												if ($video==""){
+												if ($video1==""){
 
-													echo "<img src='$imagen' alt='$strTitle'>";
+													echo "<img src='$imagen1' alt='$strTitle'>";
 												}else{
 
 													echo "<video width='100%' controls controlsList='nodownload'>
-													  <source src='$video' type='video/mp4'>
+													  <source src='$video1' type='video/mp4'>
 													</video>";
 												}
 												?>
@@ -154,13 +153,14 @@ $('#videoLink')
 											<div class="col-md-8">
 												<div class="item-content">
 													<h3 class="entry-title topmargin_0">
-														Reina de <span class="highlight">La semana</span>
+														Reinas de <span class="highlight">la semana</span><br>
+														<?php print $arreglosSeo["promociones"]["titulo1"]; ?>
 													</h3>
 													<p style="color:#ffffff">
 														<?php echo $desc1; ?>
 												    </p>
 													<h3 class="entry-title topmargin_0">
-														1 Hora 150€
+													<?php print $arreglosSeo["promociones"]["precio1"]; ?>
 													</h3>
 													<p style="text-align: center" class="entry-excerpt bottommargin_30">
 													<a href="javascript:reservar_1()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
@@ -171,6 +171,169 @@ $('#videoLink')
 										</div>
 									</div>
 								</div>
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+												if ($arreglosSeo["promociones"]["video2"]==""){
+													echo "<img src=".$arreglosSeo["promociones"]["imagen2"]." alt='$strTitle'>";
+												}else{
+													echo "<video width='100%' controls controlsList='nodownload'>
+														<source src=".$arreglosSeo['promociones']['video2']." type='video/mp4'>
+													</video>";
+												}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<span class="highlight"><?php print $arreglosSeo["promociones"]["titulo2"]; ?></span>
+													</h3>
+													<p style="color:#ffffff">
+														<?php echo $arreglosSeo["promociones"]["desc2"]; ?>
+												    </p>
+													<h3 class="entry-title topmargin_0">
+													<?php print $arreglosSeo["promociones"]["precio2"]; ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_7()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+												if ($arreglosSeo["promociones"]["video3"]==""){
+													echo "<img src=".$arreglosSeo["promociones"]["imagen3"]." alt='$strTitle'>";
+												}else{
+													echo "<video width='100%' controls controlsList='nodownload'>
+														<source src=".$arreglosSeo['promociones']['video3']." type='video/mp4'>
+													</video>";
+												}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<span class="highlight"><?php print $arreglosSeo["promociones"]["titulo3"]; ?></span>
+													</h3>
+													<p style="color:#ffffff">
+														<?php echo $arreglosSeo["promociones"]["desc3"]; ?>
+												    </p>
+													<h3 class="entry-title topmargin_0">
+													<?php print $arreglosSeo["promociones"]["precio3"]; ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_8()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+												if ($arreglosSeo["promociones"]["video4"]==""){
+													echo "<img src=".$arreglosSeo["promociones"]["imagen4"]." alt='$strTitle'>";
+												}else{
+													echo "<video width='100%' controls controlsList='nodownload'>
+														<source src=".$arreglosSeo['promociones']['video4']." type='video/mp4'>
+													</video>";
+												}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<span class="highlight"><?php print $arreglosSeo["promociones"]["titulo4"]; ?></span>
+													</h3>
+													<p style="color:#ffffff">
+														<?php echo $arreglosSeo["promociones"]["desc4"]; ?>
+												    </p>
+													<h3 class="entry-title topmargin_0">
+													<?php print $arreglosSeo["promociones"]["precio4"]; ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_9()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+												if ($arreglosSeo["promociones"]["video5"]==""){
+													echo "<img src=".$arreglosSeo["promociones"]["imagen5"]." alt='$strTitle'>";
+												}else{
+													echo "<video width='100%' controls controlsList='nodownload'>
+														<source src=".$arreglosSeo['promociones']['video5']." type='video/mp4'>
+													</video>";
+												}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<span class="highlight"><?php print $arreglosSeo["promociones"]["titulo5"]; ?></span>
+													</h3>
+													<p style="color:#ffffff">
+														<?php echo $arreglosSeo["promociones"]["desc5"]; ?>
+												    </p>
+													<h3 class="entry-title topmargin_0">
+													<?php print $arreglosSeo["promociones"]["precio5"]; ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_10()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
 								<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">
 										<div class="row">
@@ -300,18 +463,33 @@ $('#videoLink')
 								<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">
 										<div class="row">
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														Promociones semanales
+													</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
 											<div class="col-md-4">
 												<div class="item-media">
-												<?php
-												if ($video==""){
-
-													echo "<img src='$imagen2' alt='$strTitle'>";
-												}else{
-
-													echo "<video width='100%' controls controlsList='nodownload'>
-													  <source src='$video2' type='video/mp4'>
-													</video>";
-												}
+													<?php
+													if ($arreglosSeo["promociones"]["video6"]==""){
+														echo "<img src=".$arreglosSeo["promociones"]["imagen6"]." alt='$strTitle'>";
+													}else{
+														echo "<video width='100%' controls controlsList='nodownload'>
+															<source src=".$arreglosSeo['promociones']['video6']." type='video/mp4'>
+														</video>";
+													}
 												?>
 													<div class="media-links">
 													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
@@ -321,14 +499,14 @@ $('#videoLink')
 											<div class="col-md-8">
 												<div class="item-content">
 													<h3 class="entry-title topmargin_0">
-														Promoción semanal
+														<?php echo $arreglosSeo["promociones"]["titulo6"]; ?>
 													</h3>
-													<p style="color: #ffffff"><?php echo $desc2; ?></p>
+													<p style="color: #ffffff"><?php echo $arreglosSeo["promociones"]["desc6"]; ?></p>
 													<h3 class="entry-title topmargin_0">
-														<?php echo $precio;  ?>
+														<?php echo $arreglosSeo["promociones"]["precio6"];  ?>
 													</h3>
 													<p style="text-align: center" class="entry-excerpt bottommargin_30">
-													<a href="javascript:reservar_6()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<a href="javascript:reservar_11()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
 													<p class="item-meta grey">
 													</p>
 												</div>
@@ -336,6 +514,200 @@ $('#videoLink')
 										</div>
 									</div>
 								</div>
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+													if ($arreglosSeo["promociones"]["video7"]==""){
+														echo "<img src=".$arreglosSeo["promociones"]["imagen7"]." alt='$strTitle'>";
+													}else{
+														echo "<video width='100%' controls controlsList='nodownload'>
+															<source src=".$arreglosSeo['promociones']['video7']." type='video/mp4'>
+														</video>";
+													}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["titulo7"]; ?>
+													</h3>
+													<p style="color: #ffffff"><?php echo $arreglosSeo["promociones"]["desc7"]; ?></p>
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["precio7"];  ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_12()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+													if ($arreglosSeo["promociones"]["video8"]==""){
+														echo "<img src=".$arreglosSeo["promociones"]["imagen8"]." alt='$strTitle'>";
+													}else{
+														echo "<video width='100%' controls controlsList='nodownload'>
+															<source src=".$arreglosSeo['promociones']['video8']." type='video/mp4'>
+														</video>";
+													}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["titulo8"]; ?>
+													</h3>
+													<p style="color: #ffffff"><?php echo $arreglosSeo["promociones"]["desc8"]; ?></p>
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["precio8"];  ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_13()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+													if ($arreglosSeo["promociones"]["video9"]==""){
+														echo "<img src=".$arreglosSeo["promociones"]["imagen9"]." alt='$strTitle'>";
+													}else{
+														echo "<video width='100%' controls controlsList='nodownload'>
+															<source src=".$arreglosSeo['promociones']['video9']." type='video/mp4'>
+														</video>";
+													}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["titulo9"]; ?>
+													</h3>
+													<p style="color: #ffffff"><?php echo $arreglosSeo["promociones"]["desc9"]; ?></p>
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["precio9"];  ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_14()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+													if ($arreglosSeo["promociones"]["video10"]==""){
+														echo "<img src=".$arreglosSeo["promociones"]["imagen10"]." alt='$strTitle'>";
+													}else{
+														echo "<video width='100%' controls controlsList='nodownload'>
+															<source src=".$arreglosSeo['promociones']['video10']." type='video/mp4'>
+														</video>";
+													}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["titulo10"]; ?>
+													</h3>
+													<p style="color: #ffffff"><?php echo $arreglosSeo["promociones"]["desc10"]; ?></p>
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["precio10"];  ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_15()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-12 bottommargin_40">
+									<div class="side-item event-item content-padding with_background">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item-media">
+													<?php
+													if ($arreglosSeo["promociones"]["video11"]==""){
+														echo "<img src=".$arreglosSeo["promociones"]["imagen11"]." alt='$strTitle'>";
+													}else{
+														echo "<video width='100%' controls controlsList='nodownload'>
+															<source src=".$arreglosSeo['promociones']['video11']." type='video/mp4'>
+														</video>";
+													}
+												?>
+													<div class="media-links">
+													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="item-content">
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["titulo11"]; ?>
+													</h3>
+													<p style="color: #ffffff"><?php echo $arreglosSeo["promociones"]["desc11"]; ?></p>
+													<h3 class="entry-title topmargin_0">
+														<?php echo $arreglosSeo["promociones"]["precio11"];  ?>
+													</h3>
+													<p style="text-align: center" class="entry-excerpt bottommargin_30">
+													<a href="javascript:reservar_16()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
+													<p class="item-meta grey">
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+
 
 							</div>
 						</div>
@@ -531,6 +903,323 @@ $('#videoLink')
 </div>
 <div style="padding-top: 5px;background: #000000;">
 
+<div class="modal fade" id="reservar7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva7" name="formulario_reserva7">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+    	Reina de	<span class="highlight">La semana</span>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc2"];?> 1 hora  150€</textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_7()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva8" name="formulario_reserva8">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+    	Reina de	<span class="highlight">La semana</span>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc3"];?> 1 hora  150€</textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_8()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva9" name="formulario_reserva9">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+    	Reina de	<span class="highlight">La semana</span>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc4"];?> 1 hora  150€</textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_9()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva10" name="formulario_reserva10">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+    	Reina de	<span class="highlight">La semana</span>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc5"];?> 1 hora  150€</textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_10()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva11" name="formulario_reserva11">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+			 <?php echo $arreglosSeo["promociones"]["titulo6"];?>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc6"];
+			 echo $arreglosSeo["promociones"]["precio6"];?></textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_11()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva12" name="formulario_reserva12">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+			 <?php echo $arreglosSeo["promociones"]["titulo7"];?>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc7"];
+			 echo $arreglosSeo["promociones"]["precio7"];?></textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_12()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva13" name="formulario_reserva13">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+			 <?php echo $arreglosSeo["promociones"]["titulo8"];?>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc8"];
+			 echo $arreglosSeo["promociones"]["precio8"];?></textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_13()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva14" name="formulario_reserva14">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+			 <?php echo $arreglosSeo["promociones"]["titulo9"];?>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc9"];
+			 echo $arreglosSeo["promociones"]["precio9"];?></textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_14()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva15" name="formulario_reserva15">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+			 <?php echo $arreglosSeo["promociones"]["titulo10"];?>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc10"];
+			 echo $arreglosSeo["promociones"]["precio10"];?></textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_15()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+<div class="modal fade" id="reservar16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 15px;border-bottom: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);  color: #FFDF9C; ">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px">Reservar Promoción de la Semana</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #000000;text-align: center;">
+       <form id="formulario_reserva16" name="formulario_reserva16">
+       	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
+       <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+			 <?php echo $arreglosSeo["promociones"]["titulo11"];?>
+	   </h3>
+	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
+	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
+	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc11"];
+			 echo $arreglosSeo["promociones"]["precio11"];?></textarea>
+     </div>
+      <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_16()">Confirmar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="padding-top: 5px;background: #000000;">
+
+
 
 <!-------  FIN  VENTANA MODAL    --->
 <?php } ?>
@@ -614,6 +1303,36 @@ function reservar_5(){
 }
 function reservar_6(){
 	$('#reservar6').modal('show');
+}
+function reservar_7(){
+	$('#reservar7').modal('show');
+}
+function reservar_8(){
+	$('#reservar8').modal('show');
+}
+function reservar_9(){
+	$('#reservar9').modal('show');
+}
+function reservar_10(){
+	$('#reservar10').modal('show');
+}
+function reservar_11(){
+	$('#reservar11').modal('show');
+}
+function reservar_12(){
+	$('#reservar12').modal('show');
+}
+function reservar_13(){
+	$('#reservar13').modal('show');
+}
+function reservar_14(){
+	$('#reservar14').modal('show');
+}
+function reservar_15(){
+	$('#reservar15').modal('show');
+}
+function reservar_16(){
+	$('#reservar16').modal('show');
 }
 
 function correo_reserva_1()
@@ -754,6 +1473,243 @@ function correo_reserva_6()
 		        		alert('Notificación de reserva enviada');
 
 		        		$('#reservar6').modal('hide');
+		        	}
+		        }
+			});
+		}
+		function correo_reserva_7()
+{
+			var datastring = $("#formulario_reserva7").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar7').modal('hide');
+		        	}
+		        }
+			});
+		}
+		function correo_reserva_8()
+{
+			var datastring = $("#formulario_reserva8").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar8').modal('hide');
+		        	}
+		        }
+			});
+		}
+
+			function correo_reserva_9()
+{
+			var datastring = $("#formulario_reserva9").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar9').modal('hide');
+		        	}
+		        }
+			});
+		}
+
+				function correo_reserva_10()
+{
+			var datastring = $("#formulario_reserva10").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar10').modal('hide');
+		        	}
+		        }
+			});
+		}
+
+						function correo_reserva_11()
+{
+			var datastring = $("#formulario_reserva11").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar11').modal('hide');
+		        	}
+		        }
+			});
+		}
+
+								function correo_reserva_12()
+{
+			var datastring = $("#formulario_reserva12").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar12').modal('hide');
+		        	}
+		        }
+			});
+		}
+
+								function correo_reserva_13()
+{
+			var datastring = $("#formulario_reserva13").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar13').modal('hide');
+		        	}
+		        }
+			});
+		}
+
+						function correo_reserva_14()
+{
+			var datastring = $("#formulario_reserva14").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar14').modal('hide');
+		        	}
+		        }
+			});
+		}
+		function correo_reserva_15()
+{
+			var datastring = $("#formulario_reserva15").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar15').modal('hide');
+		        	}
+		        }
+			});
+		}
+
+						function correo_reserva_16()
+{
+			var datastring = $("#formulario_reserva16").serialize();
+			$.ajax({
+				url: "reservar.php",
+		        type: "post",
+		        data: datastring ,
+		        async: false,
+		        success: function(data)
+		        {
+		        	if(data==1)
+		        	{
+		        		alert('Se produjo un error');
+		        	}
+		        	else
+		        	{
+		        		alert('Notificación de reserva enviada');
+
+		        		$('#reservar16').modal('hide');
 		        	}
 		        }
 			});

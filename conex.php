@@ -252,14 +252,78 @@ $arreglosSeo = array(
 "contact" => "info@eliteescortmadrid.com" ,
 "canopc" => "https://eliteescortmadrid.com/promociones.php" ,
 "canomovil" => "https://eliteescortmadrid.com/movil/promociones.php",
-"youtube" => "6HnFIJ67HII",
-"desc1" => "Muchos de vosotros ya conocéis las generosas curvas de Dilara y su encanto personal, sino la conocéis o queréis repetir esta es vuestra oportunidad.",
-"video" => "",
-"imagen" => "/images/dilara-madrid.jpg",
-"desc2" => "Sandra tiene tiempo para pasar con vosotros. Busca tiempo para disfrutar y relajarte junto a Sandra",
-"precio" => "Sandra 2 horas<br>por 300€",
+"youtube" => "QaoLx0s2TDk",
+"titulo1"=> "Carla",
+"desc1" => "Carla es una chica fantástica con un cuerpo expectacular, divertida, alta y con grandes pechos naturales. Los que la conocen saben que lo mejor de ella es su implicación, siempre trata de agradar y disfruta tanto cómo tú. Si ya la conoces y quieres repetir o conocer a una de las que sin duda será una de tus escorts preferidas aprovéchate y llama para conocerla.",
+"precio1" => "1 Hora con Carla 150€",
+"video1" => "",
+"imagen1" => "/images/Carlalibro.jpg",
+
+"titulo2"=> "Bea",
+"desc2" => "Bea es dulce, cariñosa, inteligente y dinámica. Le gusta mucho el deporte y tiene un cuerpo duro, trabajado y definido. Su especialidad es el trato de novia, sus besos son intensos y apasionados, si necesitas cariño y atención Bea es tu escort indicada.",
+"precio2" => "1 Hora con Bea 150€",
 "video2" => "",
-"imagen2" => "/images/Sandra-Madrid.jpg",
+"imagen2" => "/images/Bea/promo-bea.jpg",
+
+"titulo3"=> "Marta",
+"desc3" => "Marta es una apuesta segura, una de las chicas más guapas que he conocido, todo en ella es expectacular, su rostro, su cuerpo natural, su carácter y actitud y cómo máxima su implicación.<br>
+Es una escort muy recomendable y por la que recibo muchas felicitaciones.<br>Si no la conoces no puedes dejarla escapar y si ya has disfrutado de sus encantos seguro que quieres repetir.",
+"precio3" => "1 Hora con Marta 150€",
+"video3" => "",
+"imagen3" => "/images/Marta/promo-marta.jpg",
+
+"titulo4"=> "Tania",
+"desc4" => "Tania es nuestra benjamina, una chica teen, joven, fresca y natural con una belleza fina y delicada, su cara con sus grandes ojos azules te fascinará. De carácter dulce y apasionada  es juguetona y cariñosa. Si te gusta disfrutar de la frescura de la juventud con una chica que se implicará contigo al máximo.",
+"precio4" => "1 Hora con Tania 150€",
+"video4" => "",
+"imagen4" => "/images/Iris/promo-tania.jpg",
+
+"titulo5"=> "Sandra",
+"desc5" => "Sandra a pesar de ser joven es toda una mujer, elegante y con clase, una chica natural, inteligente y secilla. Desde luego es una chica a tener en cuenta a la hora de elegir, su especialidad es el trato de novia dado su implicación y con abunantes y apasionados besos.
+<br>Si no la conoces o quieres volver a verla",
+"precio5" => "1 Hora con Sandra 150€",
+"video5" => "",
+"imagen5" => "/images/Sandra-Madrid.jpg",
+
+"titulo6"=> "Tienes tiempo libre?",
+"desc6" => "Esta semana ……….. os regala 15 minutos más extra de masaje o lo quieras",
+"precio6" => "",
+"video6" => "",
+"imagen6" => "/images/Laura/promo-laura.jpg",
+
+"titulo7"=> "Disfruta el doble",
+"desc7" => "Esta semana de dos horas de intensa compañía con ……",
+"precio7" => "2 horas 300€",
+"video7" => "",
+"imagen7" => "/images/Sandra-Madrid.jpg",
+
+"titulo8"=> "Vente con un amigo",
+"desc8" => "Aprovecha esta semana ésta fantástica promoción y vente con un amigo, elegir chicas y disfrutar con cada una de ellas",
+"precio8" => "150€",
+"video8" => "",
+"imagen8" => "/images/promo-amigo.jpg",
+
+
+"titulo9"=> "Cumple tus fantasías",
+"desc9" => "Sólo esta semana podrás cumplir una de tus fantasías con ésta estupenda promoción.",
+"precio9" => "Una hora de lésbico por 390 €",
+"video9" => "",
+"imagen9" => "/images/promo-lesbico.jpg",
+
+"titulo10"=> "Que te parecen dos chicas para ti",
+"desc10" => "Esta semana sólo para ti disfruta de la compañía de dos de nuestras guapas escort por una tarifa de locura.",
+"precio10" => "Una hora de dúplex por 320€",
+"video10" => "",
+"imagen10" => "/images/Duplex/promo-duplex.jpg",
+
+"titulo11"=> "Te apetece un extra gratis?",
+"desc11" => "Esta semana y sólo ésta semana elige entre griego y francés final con la escort que más te guste que realice éstos extras y disfruta una hora con extra por sólo 200€",
+"precio11" => "Una hora extra por 200€",
+"video11" => "",
+"imagen11" => "/images/promo-extra.jpg",
+
+
+
 
 
 
