@@ -245,6 +245,14 @@ $arreglosSeo = array(
 "canopc" => "https://eliteescortmadrid.com/casting-elite-escorts-en-madrid/" ,
 "canomovil" => "https://eliteescortmadrid.com/movil/casting-elite-escorts-en-madrid/") ,
 
+"fantasia" => array (
+    "tituloseo" => "Fantasías eróticas - Escorts de lujo en Madrid" ,
+    "metadescripcion" => "'Elite Escort Madrid persigue en todo momento un único objetivo: convertir tus deseos en realidad. Por ello, nos encantaría que dejes volar tu mente y nos cuentes que es lo que deseas y te complaceremos.'" ,
+    "author" => "Julia Rey" ,
+    "contact" => "info@eliteescortmadrid.com" ,
+    "canopc" => "https://eliteescortmadrid.com/servicio-fantasias-eroticas/" ,
+    "canomovil" => "https://eliteescortmadrid.com/movil/servicio-fantasias-eroticas/") ,
+
 "promociones" => array (
 "tituloseo" => "Promociones de Escorts | Señoritas y Escorts de lujo en Madrid" ,
 "metadescripcion" => "'Disfruta de promociones especiales que ofrece nuestra Zona Amiga. Convierte en cliente cliente frecuente y disfruta de ofertas exclusivas, descuentos, obsequios y mucho masajistas'" ,
