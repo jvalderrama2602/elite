@@ -10,6 +10,9 @@ if (empty ($strCaption)) {
 	if (empty ($canonical)) {$canonical = $arreglosSeo[$nombre1]["canomovil"]; }
 	if (empty ($canopc)) {$canopc = $arreglosSeo[$nombre1]["canopc"]; }
 
+
+$consultaS = 'SELECT * FROM escorts WHERE fantasias=1 ORDER BY RAND()';
+$resultadoS= $conex->query($consultaS);
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +27,7 @@ if (empty ($strCaption)) {
 <section class="ds intro_section" style="height: 620px">
 				<div class="flexslider vertical-nav">
 					<ul class="slides">
-						<li data-duration="5000" style="background: url(/movil/images/citaslidermovil.jpg);background-position: 30% 0px;max-height: 600px">
+						<li data-duration="5000" style="background: url(/images/fantasia.jpg);background-position: 30% 0px;max-height: 600px">
 							<div style="height: 250px"></div>
 							<div class="container">
 								<div class="row">
@@ -32,12 +35,12 @@ if (empty ($strCaption)) {
 										<div class="slide_description_wrapper" style="min-height: 600px">
 											<div class="slide_description">
 												<div class="intro-layer" data-animation="slideExpandUp">
-													<h2 class="big margin_0">Servicio Cita a Ciegas</h2>
+													<h2 class="big margin_0">Servicio Fantasía Erótica</h2>
 
 												</div>
 											<div class="intro-layer" data-animation="slideExpandUp">
 													<p class="entry-excerpt bottommargin_30">
-														Déjate sorprender
+													Tus sueños eróticos hechos realidad.
 													</p>
 													<h2 style="font-family: 'Herr Von Muellerhoff', cursive;
 	font-weight: 400;" class="muellerhoff topmargin_5 bottommargin_50 highlight">Julia Rey</h2>
@@ -79,7 +82,7 @@ if (empty ($strCaption)) {
 
 											<div class="col-md-4">
 												<div class="item-media">
-													<img src="/images/sexy02.jpg" alt="">
+													<img src="/images/Fantasia-erotica.jpg" alt="">
 													<div class="media-links">
 														<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
 													</div>
@@ -89,12 +92,11 @@ if (empty ($strCaption)) {
 											<div class="col-md-8">
 												<div class="item-content">
 													<h3 class="entry-title topmargin_0">
-														Déjate Sorprender
+													Cumplimos tus sueños
 													</h3>
 
-														<p>Cuando un caballero como tú concierta una cita a ciegas con una escort de lujo de la agencia Elite Escort Madrid sabe que se va a encontrar con alguien especial y que sus expectativas van a quedar completamente satisfechas.</p>
-<p>Normalmente cuando conocemos a alguien que nos atrae físicamente sufrimos, lo que se ha venido a llamar, el efecto Halo. Hay cierta información que aún nos falta y la llenamos haciendo uso de nuestra imaginación. Cubrimos a esa persona con cualidades ideales y rasgos sublimes. Nuestras expectativas y deseos aumentan al imaginar a un ser humano que raya la perfección. Todas esas expectativas y deseos, todo ese derroche de imaginación, todas esas cualidades, se hacen realidad cuando tienes una cita a ciegas con una escort de Madrid.
-												</p>
+														<p>En Elite Escorts Madrid perseguimos constantemente satisfacer tus necesidades eróticas más intimas. Convertimos en realidad todos sus deseos. Es por ello que nos encantaría que dejaras volar su imaginación y explorar desde lo más profundo de tu mente todas sus fantasías, esas <strong>fantasías eróticas</strong> que nunca te has atrevido nunca a llevar a cabo. Te invitamos a dejarlo en nuestras manos y llegarás a alcanzar tus más altos niveles de placer.</p>
+<p>Las <strong>fantasías eróticas</strong> aparecen durante el día o durante el acto sexual y se forman en función de la personalidad de cada uno. Las fantasías más recurrentes son las que se tienen con una persona concreta (un famoso, un desconocido, un compañero de trabajo o un amigo o con algún accesorio (manos atadas, ojos vendados, juguetes, etc. ). Abajo te dejo las chicas dispuestas a complacer tus fantasias eróticas.</p>
 
 													<p class="item-meta grey">
 
@@ -108,82 +110,56 @@ if (empty ($strCaption)) {
 
 								</div>
 
-								<div class="col-sm-12 bottommargin_40">
-
-									<div class="side-item event-item content-padding with_background">
-
-										<div class="row">
-
-											<div class="col-md-4">
-												<div class="item-media">
-													<img src="/images/sexy03.jpg" alt="">
-													<div class="media-links">
-														<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
-													</div>
-												</div>
-											</div>
-
-											<div class="col-md-8">
-												<div class="item-content">
-													<h3 class="entry-title topmargin_0">
-														¿ Que es cita a ciegas?
-													</h3>
-
-												<p>Cita a ciegas está creada quizás, para gente cómo tú. </p>
-<p>Es posible que al dar un paseo por Elite Escort Madrid y descubrir nuestra fantástica selección de acompañantes tengas dudas y no sepas cuál de las señoritas sería la elegida perfecta para tu esperado encuentro o también puede pasar que al tener que hacer la elección guiándote por unas fotografías, puedas descartar alguna dama porque sus imágenes no te transmitan lo suficiente y podrías estar perdiéndote un encuentro inolvidable.</p>
-<p>Si estás entre uno de éstos casos cita a ciegas está para ayudarte.</p>
-
-													<p class="item-meta grey">
-
-													</p>
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-								</div>
-
-								<div class="col-sm-12 bottommargin_40">
-
-									<div class="side-item event-item content-padding with_background">
-
-										<div class="row">
-
-											<div class="col-md-4">
-												<div class="item-media">
-													<img src="/images/sexy05.jpg" alt="">
-													<div class="media-links">
-														<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
-													</div>
-												</div>
-											</div>
-
-											<div class="col-md-8">
-												<div class="item-content">
-													<h3 class="entry-title topmargin_0">
-														¿Cómo concertar una Cita a ciegas?
-													</h3>
-
-													<p>El funcionamiento es muy sencillo, dime los 4 nombres de las acompañantes  con las que  deseas tener un encuentro y coméntame que clase de cita te gustaría vivir, con una señorita apasionada?, estilo novia?, morbosa? y déjate guiar por nuestra experiencia para asegurarte que tú escapada será inolvidable. A todo esto añádele el morbo y la intriga de no saber la sorpresa de quién te esperará detrás de la puerta.</p>
-<p>Seguro que tú eres de cita a ciegas, No lo dudes más,  llámanos y complácete con el acierto más absoluto en la mejor cita a ciegas por tan sólo 150€
-</p>
-
-<h2 style="font-family: 'Herr Von Muellerhoff', cursive;" class="muellerhoff topmargin_5 bottommargin_50 highlight">Julia Rey</h2>
 
 
-													<p class="item-meta grey">
+<style>
+	.texto-blanco{color:#ffffff;}
+	.texto-blanco:hover{color:#D5BD53;}
 
-													</p>
+	.imgborder2{
+		width:430px;
+		border: 1px solid #D1A254;
+			}
+</style>
 
-												</div>
-											</div>
 
-										</div>
-									</div>
+		<?php foreach ($resultadoS as $row ):	?>
 
-								</div>
+		<div class="container-fluid ds" style="background-image:url(/images/fondo-chicas-o.jpg);background-position: 50% -30px;">
+		<div class="row">
+
+		<div class="col-md-12" ><a href=<?php echo "'/movil/escorts-madrid/";?><?= $row['nombre']; ?><?php echo "'";?>>
+		<p style='padding-top: 6px;margin-bottom: 0px' ><img class="imgborder2" style="width:430px" src=<?= $row['imagenppal']; ?> alt=<?= $row['alt']; $i=$i+1;echo '$row' ?>></p>
+		<div class="model-parameters">
+		<h3 style="text-align: center;font-family: Garamond;margin-top: 0px"  class="texto-blanco">
+				<?= $row['nombre']; ?>
+		</h3></div></a>
+		</div>
+		</div>
+		</div>
+
+
+
+
+
+<?php endforeach; ?>
+
+
+<!-- cita a ciegas -->
+		<section class="ds parallax calltoaction section_pad1ding_100" style="background-image:url(https://eliteescortmadrid.com/wp-content/uploads/2018/04/02-min.jpg)">
+		<div class="container-fluid">
+		<div class="row">
+		<div class="col-md-4" ><a href="/movil/servicios-cita-ciegas-elite-escorts-madrid/">
+		<p style='padding-top:1px;text-align: center;' ><img class="imgborder2" src="/images/citaaciega.png" alt="Cita a ciegas"></p>
+		<div class="model-parameters">
+		<h3 style="text-align: center;font-family: Garamond;margin-top: 0px" class="texto-blanco">
+			Cita a ciegas
+									</h3></div></a>
+		</div>
+
+	</div>
+</div>
+
 
 
 							</div>
