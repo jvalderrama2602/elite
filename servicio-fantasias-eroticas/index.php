@@ -206,12 +206,12 @@ Cumplimos tus sueños
 	</div>
 </div>-->
 </section>
-<?php include("../bienvenida.php"); ?>
-<div style="padding-top: 30px;background: #000000;">
-</div>
+<?php /* include("../bienvenida.php"); */?>
+<!--<div style="padding-top: 30px;background: #000000;">
+</div>-->
 
-<?php include("../zona.php"); ?>
-<div style="padding-top: 30px;background: #000000;">
-</div>
-<?php include("../blog-slide.php"); ?>
+<?php /* include("../zona.php"); */?>
+<!--<div style="padding-top: 30px;background: #000000;">
+</div>-->
+<?php /* include("../blog-slide.php");*/ ?>
 <?php include("../footer.html"); ?>

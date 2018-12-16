@@ -145,7 +145,7 @@ $resultadoS= $conex->query($consultaS);
 <?php endforeach; ?>
 
 
-<!-- cita a ciegas -->
+<!-- cita a ciegas 
 		<section class="ds parallax calltoaction section_pad1ding_100" style="background-image:url(https://eliteescortmadrid.com/wp-content/uploads/2018/04/02-min.jpg)">
 		<div class="container-fluid">
 		<div class="row">
@@ -171,14 +171,14 @@ $resultadoS= $conex->query($consultaS);
 
 						<!-- sidebar -->
 
-						<!-- eof aside sidebar -->
+						<!-- eof aside sidebar - ->
 
 					</div>
 				</div>
-			</section>
+			</section>-->
 
-<?php include("../bienvenida.php"); ?>
+<?php/* include("../bienvenida.php"); ?>
 <?php include("../cita.php"); ?>
-<?php include("../zona.php"); ?>
+<?php include("../zona.php"); */?>
 <?php include("../blog-slide.php"); ?>
 <?php include("../footer.html"); ?>
