@@ -170,13 +170,11 @@ $('#videoLink')
 								<div class="side-item content-padding">
 
 									<div class="row">
-
 										<!--<div class="col-md-6">
 											<div class="item-media entry-thumbnail">
 												<p style="text-align: center;padding-left: 40px;padding-top: 40px;"><img src="/images/promo-lia.jpg" alt=""></p>
 											</div>
 										</div>-->
-
 										<div class="col-md-12">
 											<div class="item-content .about-content" style="padding: 15px">
 
@@ -233,159 +231,17 @@ $('#videoLink')
 
 									</div>
 
-<!--
-<div class="row">
-<div class="col-md-6">
-	<div class="item-media entry-thumbnail">
-		<p style="text-align: center;">
-		<?php
-		if ($arreglosSeo["promociones"]["video2"]==""){
-			echo "<img src=".$arreglosSeo["promociones"]["imagen2"]." alt='$strTitle'>";
-		}else{
-			echo "<video width='100%' controls controlsList='nodownload'>
-				<source src=".$arreglosSeo['promociones']['video2']." type='video/mp4'>
-			</video>";
-		}
-		?>
-		</p>
-	</div>
-</div>
-<div class="col-md-6">
-	<div class="item-content .about-content" style="padding-top: 0px">
-		<h3 class="big topmargin_0 bottommargin_30">
-		<?php print $arreglosSeo["promociones"]["titulo2"]; ?>
-			<!- -Reina de	<span class="highlight">La semana</span>- ->
-		</h3>
-		<p style="color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc2"]; ?> </p>
-		<h2 class="big topmargin_0 bottommargin_30">
-		<?php print $arreglosSeo["promociones"]["precio2"]; ?>
-		</h2>
-		<p style="text-align: center" class="entry-excerpt bottommargin_30">
-		<a href="javascript:reservar_7()" class="theme_button color1 topmargin_20" style="font-size: 20px"><i class="rt-icon2-whatsapp"> </i> 150€ &nbsp;	   Reservar</a></p>
-	</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-md-6">
-	<div class="item-media entry-thumbnail">
-		<p style="text-align: center;">
-		<?php
-		if ($arreglosSeo["promociones"]["video3"]==""){
-			echo "<img src=".$arreglosSeo["promociones"]["imagen3"]." alt='$strTitle'>";
-		}else{
-			echo "<video width='100%' controls controlsList='nodownload'>
-				<source src=".$arreglosSeo['promociones']['video3']." type='video/mp4'>
-			</video>";
-		}
-		?>
-		</p>
-	</div>
-</div>
-<div class="col-md-6">
-	<div class="item-content .about-content" style="padding-top: 0px">
-		<h3 class="big topmargin_0 bottommargin_30">
-		<?php print $arreglosSeo["promociones"]["titulo3"]; ?>
-			<!- -Reina de	<span class="highlight">La semana</span>- ->
-		</h3>
-		<p style="color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc3"]; ?> </p>
-		<h2 class="big topmargin_0 bottommargin_30">
-		<?php print $arreglosSeo["promociones"]["precio3"]; ?>
-		</h2>
-		<p style="text-align: center" class="entry-excerpt bottommargin_30">
-		<a href="javascript:reservar_8()" class="theme_button color1 topmargin_20" style="font-size: 20px"><i class="rt-icon2-whatsapp"> </i> 150€ &nbsp;	   Reservar</a></p>
-	</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-md-6">
-	<div class="item-media entry-thumbnail">
-		<p style="text-align: center;">
-		<?php
-		if ($arreglosSeo["promociones"]["video4"]==""){
-			echo "<img src=".$arreglosSeo["promociones"]["imagen4"]." alt='$strTitle'>";
-		}else{
-			echo "<video width='100%' controls controlsList='nodownload'>
-				<source src=".$arreglosSeo['promociones']['video4']." type='video/mp4'>
-			</video>";
-		}
-		?>
-		</p>
-	</div>
-</div>
-<div class="col-md-6">
-	<div class="item-content .about-content" style="padding-top: 0px">
-		<h3 class="big topmargin_0 bottommargin_30">
-		<?php print $arreglosSeo["promociones"]["titulo4"]; ?>
-			<!- -Reina de	<span class="highlight">La semana</span>- ->
-		</h3>
-		<p style="color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc4"]; ?> </p>
-		<h2 class="big topmargin_0 bottommargin_30">
-		<?php print $arreglosSeo["promociones"]["precio4"]; ?>
-		</h2>
-		<p style="text-align: center" class="entry-excerpt bottommargin_30">
-		<a href="javascript:reservar_9()" class="theme_button color1 topmargin_20" style="font-size: 20px"><i class="rt-icon2-whatsapp"> </i> 150€ &nbsp;	   Reservar</a></p>
-	</div>
-</div>
-</div>
-
-
-<div class="row">
-<div class="col-md-6">
-	<div class="item-media entry-thumbnail">
-		<p style="text-align: center;">
-		<?php
-		if ($arreglosSeo["promociones"]["video5"]==""){
-			echo "<img src=".$arreglosSeo["promociones"]["imagen5"]." alt='$strTitle'>";
-		}else{
-			echo "<video width='100%' controls controlsList='nodownload'>
-				<source src=".$arreglosSeo['promociones']['video5']." type='video/mp4'>
-			</video>";
-		}
-		?>
-		</p>
-	</div>
-</div>
-<div class="col-md-6">
-	<div class="item-content .about-content" style="padding-top: 0px">
-		<h3 class="big topmargin_0 bottommargin_30">
-		<?php print $arreglosSeo["promociones"]["titulo5"]; ?>
-			<!- -Reina de	<span class="highlight">La semana</span>- ->
-		</h3>
-		<p style="color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc5"]; ?> </p>
-		<h2 class="big topmargin_0 bottommargin_30">
-		<?php print $arreglosSeo["promociones"]["precio5"]; ?>
-		</h2>
-		<p style="text-align: center" class="entry-excerpt bottommargin_30">
-		<a href="javascript:reservar_10()" class="theme_button color1 topmargin_20" style="font-size: 20px"><i class="rt-icon2-whatsapp"> </i> 150€ &nbsp;	   Reservar</a></p>
-	</div>
-</div>
-</div>-->
-
-
-
-
-
-
 									<div class="row">
 											<div class="col-md-6">
 											<div class="item-content .about-content">
 												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
 													Te gustan las cosas con calma y disfrutar bien un encuentro? 	<span class="highlight"></span>
 												</h2>
-
-
-
 													<p style="color: #ffffff;font-size: 20px;line-height: 40px;text-align: center">Tu escort favorita y disfruta <span class="highlight">dos horas con ella por solo 300€ </span></p>
-
 												<p style="text-align: center" class="entry-excerpt bottommargin_30">
 													<a href="javascript:reservar_2()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
-
-
 											</div>
 										</div>
-
 										<div class="col-md-6">
 											<div class="item-media entry-thumbnail">
 												<p style="text-align: center;"><img src="/images/dilara-madrid.jpg" alt=""></p>
@@ -394,8 +250,6 @@ $('#videoLink')
 									</div>
 								</div>
 							</article>
-
-
 							<article class="post format-small-image with_background">
 								<div class="side-item content-padding">
 										<div class="row">
@@ -414,7 +268,6 @@ $('#videoLink')
 									</div>
 								</div>
 							</article>
-
 
 							<article class="post format-small-image with_background">
 								<div class="side-item content-padding">
@@ -437,7 +290,6 @@ $('#videoLink')
 									</div>
 								</div>
 							</article>
-
 
 							<article class="post format-small-image with_background">
 								<div class="side-item content-padding" style="padding-bottom: 0px">
@@ -464,7 +316,6 @@ $('#videoLink')
 								</div>
 							</article>
 
-						
 							<article class="post format-small-image with_background">
 								<div class="side-item content-padding">
 									<div class="row">
@@ -475,38 +326,6 @@ $('#videoLink')
 										</h2>
 									</div>
 								</div>
-
-							<!--	<div class="col-md-6">
-											<div class="item-content .about-content">
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["titulo6"]; ?></span>
-												</h2>
-												<p style="color: #ffffff;font-size: 20px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc6"]; ?></p>
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["precio6"];  ?></span>
-												</h2>
-													<p style="text-align: center" class="entry-excerpt bottommargin_30">
-													<a href="javascript:reservar_11()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
-											</div>
-								</div>
-								<div class="col-md-6">
-											<div class="item-media entry-thumbnail">
-												<p style="text-align: center;">
-
-												<?php
-													if ($arreglosSeo["promociones"]["video6"]==""){
-														echo "<img src=".$arreglosSeo["promociones"]["imagen6"]." alt='$strTitle'>";
-													}else{
-														echo "<video width='100%' controls controlsList='nodownload'>
-															<source src=".$arreglosSeo['promociones']['video6']." type='video/mp4'>
-														</video>";
-													}
-												?>
- 											</p>
-											</div>
-										</div>
-									</div>
-								</div>-->
 							</article>
 
 							<article class="post format-small-image with_background">
@@ -545,159 +364,6 @@ $('#videoLink')
 									</div>
 								</div>
 							</article>
-<!--
-								<article class="post format-small-image with_background">
-								<div class="side-item content-padding">
-								<div class="row">
-									
-								<div class="col-md-6">
-											<div class="item-content .about-content">
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["titulo8"]; ?></span>
-												</h2>
-												<p style="color: #ffffff;font-size: 20px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc8"]; ?></p>
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["precio8"];  ?></span>
-												</h2>
-													<p style="text-align: center" class="entry-excerpt bottommargin_30">
-													<a href="javascript:reservar_13()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
-											</div>
-								</div>
-								<div class="col-md-6">
-											<div class="item-media entry-thumbnail">
-												<p style="text-align: center;">
-
-												<?php
-													if ($arreglosSeo["promociones"]["video8"]==""){
-														echo "<img src=".$arreglosSeo["promociones"]["imagen8"]." alt='$strTitle'>";
-													}else{
-														echo "<video width='100%' controls controlsList='nodownload'>
-															<source src=".$arreglosSeo['promociones']['video8']." type='video/mp4'>
-														</video>";
-													}
-												?>
- 											</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="post format-small-image with_background">
-								<div class="side-item content-padding">
-								<div class="row">
-									
-								<div class="col-md-6">
-											<div class="item-content .about-content">
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["titulo9"]; ?></span>
-												</h2>
-												<p style="color: #ffffff;font-size: 20px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc9"]; ?></p>
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["precio9"];  ?></span>
-												</h2>
-													<p style="text-align: center" class="entry-excerpt bottommargin_30">
-													<a href="javascript:reservar_14()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
-											</div>
-								</div>
-								<div class="col-md-6">
-											<div class="item-media entry-thumbnail">
-												<p style="text-align: center;">
-
-												<?php
-													if ($arreglosSeo["promociones"]["video9"]==""){
-														echo "<img src=".$arreglosSeo["promociones"]["imagen9"]." alt='$strTitle'>";
-													}else{
-														echo "<video width='100%' controls controlsList='nodownload'>
-															<source src=".$arreglosSeo['promociones']['video9']." type='video/mp4'>
-														</video>";
-													}
-												?>
- 											</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="post format-small-image with_background">
-								<div class="side-item content-padding">
-								<div class="row">
-									
-								<div class="col-md-6">
-											<div class="item-content .about-content">
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["titulo10"]; ?></span>
-												</h2>
-												<p style="color: #ffffff;font-size: 20px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc10"]; ?></p>
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["precio10"];  ?></span>
-												</h2>
-													<p style="text-align: center" class="entry-excerpt bottommargin_30">
-													<a href="javascript:reservar_15()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
-											</div>
-								</div>
-								<div class="col-md-6">
-											<div class="item-media entry-thumbnail">
-												<p style="text-align: center;">
-
-												<?php
-													if ($arreglosSeo["promociones"]["video10"]==""){
-														echo "<img src=".$arreglosSeo["promociones"]["imagen10"]." alt='$strTitle'>";
-													}else{
-														echo "<video width='100%' controls controlsList='nodownload'>
-															<source src=".$arreglosSeo['promociones']['video10']." type='video/mp4'>
-														</video>";
-													}
-												?>
- 											</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							
-							<article class="post format-small-image with_background">
-								<div class="side-item content-padding">
-								<div class="row">
-									
-								<div class="col-md-6">
-											<div class="item-content .about-content">
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["titulo11"]; ?></span>
-												</h2>
-												<p style="color: #ffffff;font-size: 20px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc11"]; ?></p>
-												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
-													<span class="highlight"><?php echo $arreglosSeo["promociones"]["precio11"];  ?></span>
-												</h2>
-													<p style="text-align: center" class="entry-excerpt bottommargin_30">
-													<a href="javascript:reservar_16()" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Reservar</a></p>
-											</div>
-								</div>
-								<div class="col-md-6">
-											<div class="item-media entry-thumbnail">
-												<p style="text-align: center;">
-
-												<?php
-													if ($arreglosSeo["promociones"]["video10"]==""){
-														echo "<img src=".$arreglosSeo["promociones"]["imagen11"]." alt='$strTitle'>";
-													}else{
-														echo "<video width='100%' controls controlsList='nodownload'>
-															<source src=".$arreglosSeo['promociones']['video11']." type='video/mp4'>
-														</video>";
-													}
-												?>
- 											</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</article>
-
--->
-
-				
 
 							<article class="post format-small-image with_background">
 
@@ -778,7 +444,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <!-------    VENTANA RESERVAR 2    --->
 <div class="modal fade" id="reservar2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -810,7 +476,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -841,7 +507,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -872,7 +538,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -903,7 +569,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -934,7 +600,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -965,7 +631,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -996,7 +662,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -1027,7 +693,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -1058,7 +724,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -1090,7 +756,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -1122,7 +788,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -1154,7 +820,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -1186,7 +852,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -1218,7 +884,7 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
+
 
 <div class="modal fade" id="reservar16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -1250,8 +916,6 @@ $('#videoLink')
     </div>
   </div>
 </div>
-<div style="padding-top: 5px;background: #000000;">
-
 
 <!-------  FIN  VENTANA MODAL    --->
 <section class="ds parallax calltoaction section_pad1ding_100" style="background-image:url(/images/background.jpg)">

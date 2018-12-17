@@ -260,12 +260,21 @@ $arreglosSeo = array(
 "contact" => "info@eliteescortmadrid.com" ,
 "canopc" => "https://eliteescortmadrid.com/promociones.php" ,
 "canomovil" => "https://eliteescortmadrid.com/movil/promociones.php",
-"youtube" => "QaoLx0s2TDk",
-"titulo1"=> "Carla",
-"desc1" => "Carla es una chica fantástica con un cuerpo expectacular, divertida, alta y con grandes pechos naturales. Los que la conocen saben que lo mejor de ella es su implicación, siempre trata de agradar y disfruta tanto cómo tú. Si ya la conoces y quieres repetir o conocer a una de las que sin duda será una de tus escorts preferidas aprovéchate y llama para conocerla.",
-"precio1" => "1 Hora con Carla 150€",
+"youtube" => "QNjoZ_I5HGw",
+
+
+"titulo1"=> "Marta",
+"desc1" => "Marta es una apuesta segura, una de las chicas más guapas que he conocido, todo en ella es expectacular, su rostro, su cuerpo natural, su carácter y actitud y cómo máxima su implicación.
+Es una escort muy recomendable y por la que recibo muchas felicitaciones. Si no la conoces no puedes dejarla escapar y si ya has disfrutado de sus encantos seguro que quieres repetir.",
+"precio1" => "1 Hora con Marta 150€",
 "video1" => "",
-"imagen1" => "/images/Carlalibro.jpg",
+"imagen1" => "/images/Marta/promo-marta.jpg",
+
+"titulo1_temp"=> "Carla",
+"desc1_temp" => "Carla es una chica fantástica con un cuerpo expectacular, divertida, alta y con grandes pechos naturales. Los que la conocen saben que lo mejor de ella es su implicación, siempre trata de agradar y disfruta tanto cómo tú. Si ya la conoces y quieres repetir o conocer a una de las que sin duda será una de tus escorts preferidas aprovéchate y llama para conocerla.",
+"precio1_temp" => "1 Hora con Carla 150€",
+"video1_temp" => "",
+"imagen1_temp" => "/images/Carlalibro.jpg",
 
 "titulo2"=> "Bea",
 "desc2" => "Bea es dulce, cariñosa, inteligente y dinámica. Le gusta mucho el deporte y tiene un cuerpo duro, trabajado y definido. Su especialidad es el trato de novia, sus besos son intensos y apasionados, si necesitas cariño y atención Bea es tu escort indicada.",
@@ -292,6 +301,12 @@ Es una escort muy recomendable y por la que recibo muchas felicitaciones.<br>Si 
 "precio5" => "1 Hora con Sandra 150€",
 "video5" => "",
 "imagen5" => "/images/Sandra-Madrid.jpg",
+/*PROMCION SEMANAL*/
+"titulo7"=> "Tienes tiempo libre?",
+"desc7" => "Esta semana Carla os regala 15 minutos más extra de masaje o lo quieras",
+"precio7" => "15 Minutos Extras",
+"video7" => "",
+"imagen7" => "/images/Carla/promo-carla.jpg",
 
 "titulo6"=> "Tienes tiempo libre?",
 "desc6" => "Esta semana Carla os regala 15 minutos más extra de masaje o lo quieras",
@@ -299,11 +314,11 @@ Es una escort muy recomendable y por la que recibo muchas felicitaciones.<br>Si 
 "video6" => "",
 "imagen6" => "/images/Carla/promo-carla.jpg",
 
-"titulo7"=> "Disfruta el doble",
-"desc7" => "Esta semana de dos horas de intensa compañía con Sandra",
-"precio7" => "2 horas 300€",
-"video7" => "",
-"imagen7" => "/images/Sandra-Madrid.jpg",
+"tituloT"=> "Disfruta el doble",
+"descT" => "Esta semana de dos horas de intensa compañía con Sandra",
+"precioT" => "2 horas 300€",
+"videoT" => "",
+"imagenT" => "/images/Sandra-Madrid.jpg",
 
 "titulo8"=> "Vente con un amigo",
 "desc8" => "Aprovecha esta semana ésta fantástica promoción y vente con un amigo, elegir chicas y disfrutar con cada una de ellas",
