@@ -318,7 +318,7 @@ $( document ).ready(function() {
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Horario disponible</label>
-								<input type="number" class="form-control" id="horario" name="horario" maxlength="2" />
+								<input type="text" class="form-control" id="horario" name="horario" maxlength="2" />
 							</div>
 							<div class="form-group">
 								<label for="exampleInputPassword1">Mostrarías tu cara?</label>
@@ -332,7 +332,7 @@ $( document ).ready(function() {
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Medidas </label>
-								<input type="number" class="form-control" id="medidas" name="medidas" maxlength="2" />
+								<input type="text" class="form-control" id="medidas" name="medidas" maxlength="2" />
 							</div>
 							<div class="form-group">
 								<label for="exampleInputPassword1">Tienes tatuajes o piercing?</label>

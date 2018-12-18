@@ -210,6 +210,14 @@ $arreglosSeo = array(
     "canopc" => "https://eliteescortmadrid.com/escorts-madrid/estrella/" ,
     "canomovil" => "https://eliteescortmadrid.com/movil/escorts-madrid/estrella/" ),
 
+"sara" => array (
+        "tituloseo" => "Sara, escort muy sensual | Escorts de lujo en Madrid" ,
+        "metadescripcion" => "'Dama de compañía española en Madrid. Sara, es una bellísima acompañante de lujo para disfrutar su belleza en reuniones o eventos. Disponible en el mejor horario. Visitanos!'" ,
+        "author" => "Julia Rey" ,
+        "contact" => "info@eliteescortmadrid.com" ,
+        "canopc" => "https://eliteescortmadrid.com/escorts-madrid/sara/" ,
+        "canomovil" => "https://eliteescortmadrid.com/movil/escorts-madrid/sara/" ),
+
 
 
 "login" => array (

@@ -1,12 +1,4 @@
 <head>
-<script>
-/*var dispositivo = navigator.userAgent.toLowerCase();
-if( dispositivo.search(/iphone|ipod|ipad|android/) > -1 ){
-document.location = "/movil/";}*/
-
-
-</script>
-
 <script type="text/javascript">
 if (screen.width<800) {
 document.location="<?php print $canomovil ?>";
@@ -19,7 +11,7 @@ document.location="<?php print $canomovil ?>";
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="<?php print $canonical ?>"  />
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <link rel="icon" type="image/ico" href="https://eliteescortmadrid.com/favicon.ico">
+  <link rel="icon" type="image/ico" href="https://eliteescortmadrid.com/favicon.ico?v=2">
 <!-- OpenGraph metadata-->
 
   <meta property="og:locale" content="es_ES" />
@@ -30,6 +22,7 @@ document.location="<?php print $canomovil ?>";
   <meta property="og:site_name" content="Elite Escort Madrid" />
   <meta property="og:image" content="https://eliteescortmadrid.com/images/slider01.png" />
   <meta property='fb:admins' content='FB-AppID'/>
+
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:description" content=<?php print $strCaption ?>/>
   <meta name="twitter:title" content="<?php print $strTitle; ?>"/>
@@ -204,5 +197,4 @@ a.close {
 }
 
 </style>
-
 </head>
