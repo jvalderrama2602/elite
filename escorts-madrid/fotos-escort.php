@@ -75,13 +75,13 @@
 		</h3></div>
 		</div>
 
-		<div class='col-md-4' >
+		<!--<div class='col-md-4' >
 		<p style='padding-top:1px;text-align: center;' ><img class='imgborder2' src='/images/proximamente02.png' alt='Cita a ciegas'></p>
 		<div class='model-parameters'>
 		<h3 style='text-align: center;font-family: Garamond;margin-top: 0px' class='texto-blanco'>
 			Próximamente
 		</h3></div>
-		</div>
+		</div>-->
 	</div>
 </div>
 <!--<div class="container-fluid">
