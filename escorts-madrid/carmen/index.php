@@ -8,15 +8,14 @@ $nombre1=$arregloruta[$cantidad-1];
 $nombre2 = ucwords($nombre1);
 
 if (empty ($strTitle)) {
-	$strTitle = $arreglosSeo[$nombre1]["tituloseo"];
-}
+	$strTitle = $arreglosSeo[$nombre1]["tituloseo"];}
 if (empty ($strCaption)) {
 	$strCaption = $arreglosSeo[$nombre1]["metadescripcion"]; }
 if (empty ($canonical)) {$canonical = $arreglosSeo[$nombre1]["canopc"];}
-if (empty ($canomovil)) {$canomovil = $arreglosSeo[$nombre1]["canomovil"];}	
+if (empty ($canomovil)) {$canomovil = $arreglosSeo[$nombre1]["canomovil"];}
 
 $consulta = "SELECT * FROM escorts WHERE nombre='".$nombre2."'";
-$resultado= $conex->query($consulta);
+$resultado = $conex->query($consulta);
 ?>
 
 <!DOCTYPE html>
@@ -75,7 +74,7 @@ $( document ).ready(function() {
 														<?= $row['contenido']; ?>
 													</p>
 													<p style="text-align: center" class="entry-excerpt bottommargin_30">
-													<strong style="color:#ffdf9c">Reserva la cita cómo mínimo con una hora y media de antelación.</strong><br>
+													<strong style="color:#ffdf9c">Reserva la cita cómo mínimo con una hora de antelación.</strong><br>
 													<strong style="color:#ffdf9c"><?= $row['horario']; ?></strong><br>
 													<a href="https://api.whatsapp.com/send?phone=34693608861" class="theme_button color1 topmargin_20"><i class="rt-icon2-whatsapp"> </i>Contáctame</a></p>
 												</div>
@@ -99,141 +98,14 @@ $( document ).ready(function() {
 <?php include("../fotos.php"); ?>
 
 <div style="padding-top: 30px;background: #000000;">
-
 </div>
 
-<div class="container-fluid negro">
-	<div class="row">
-		<div class="col-md-3 borde">
-			<div class="with_background2 page-meta topmargin_1">
-
-								<div class="widget widget_tag_cloud2">
-
-									<h3 class="widget-title">Información</h3>
-
-
-								</div>
-								<div class="media small-teaser">
-									<li class="list-item">
-									<strong>Estatura: </strong><?= $row['estatura']; ?>
-									</li>
-								</div>
-								<div class="media small-teaser">
-								<li>
-									<strong>Medidas: </strong><?= $row['busto']; ?>/<?= $row['cintura']; ?>/<?= $row['cadera']; ?>
-									</li>
-								</div>
-
-								<div class="media small-teaser">
-								<li>
-									<strong>Edad: </strong><?= $row['edad']; ?>
-									</li>
-								</div>
-								<div class="media small-teaser">
-								<li>
-									<strong>Ojos: </strong><?= $row['ojos']; ?>
-									</li>
-								</div>
-								<div class="media small-teaser">
-								<li>
-									<strong>Talla: </strong><?= $row['talla']; ?>
-									</li>
-								</div>
-								<div class="media small-teaser">
-								<li>
-									<strong>Calzado: </strong><?= $row['calzado']; ?>
-									</li>
-								</div>
-								<div class="media small-teaser">
-								<li>
-									<strong>Idioma: </strong><?= $row['idioma']; ?>
-									</li>
-								</div>
-								<div class="media small-teaser">
-								<li>
-									<strong>Nacionalidad: </strong><?= $row['nacionalidad']; ?>
-									</li>
-								</div>
-			</div>
-		</div>
-		<div class="col-md-3 borde">
-			<div class="with_background2 page-meta topmargin_1">
-								<div class="widget widget_tag_cloud2">
-									<h3 class="widget-title">Tarifas</h3>
-								</div>
-								<?php
-										$tarifa= explode(',',$row['tarifas']);
-										$cantidad= sizeof($tarifa);
-										for($i = 0; $i < $cantidad;$i++)
-										{
-											echo "<div class='media small-teaser'>
-									<li class='list-item'>
-									$tarifa[$i]<strong>€</strong>
-									</li>
-								</div>";
-										}
-										  ?>
-			</div>
-		</div>
-		<div class="col-md-3 borde">
-			<div class="with_background2 page-meta topmargin_1">
-								<div class="widget widget_tag_cloud2">
-									<h3 class="widget-title">Servicios</h3>
-								</div>
-								<?php
-										$serv= explode(',',$row['Servicios']);
-										$cantidad= sizeof($serv);
-
-										for($i = 0; $i < $cantidad;$i++)
-										{
-											echo "<div class='media small-teaser'>
-									<li class='list-item'>
-									 $serv[$i]
-									</li>
-								</div>"
-								;
-										}
-										  ?>
-										  <div class='media small-teaser'>
-									<li class='list-item'>
-									Otros servicios consultar
-									</li>
-									<img src="/images/PEGATINA.png">
-								</div>"
-			</div>
-		</div>
-		<div class="col-md-3 borde">
-			<div class="with_background2 page-meta topmargin_1">
-								<div class="widget widget_tag_cloud2">
-									<h3 class="widget-title">Me gusta</h3>
-								</div>
-
-<?php
-										$gusto= explode(',',$row['megusta']);
-										$cantidad= sizeof($gusto);
-
-										for($i = 0; $i < $cantidad;$i++)
-										{
-											echo "<div class='media small-teaser'>
-									<li class='list-item'>
-									 $gusto[$i]
-									</li>
-								</div>";
-										}
-
-										  ?>
-			</div>
-		</div>
-	</div>
-</div>
-
-
+<?php include("../servicios.php"); ?>
 
 <div style="padding-top: 30px;background: #000000;">
 </div>
 
 <?php include("../../slider.php"); ?>
-
 
 <?php include("../../bienvenida.php"); ?>
 <div style="padding-top: 30px;background: #000000;">
@@ -248,7 +120,7 @@ $( document ).ready(function() {
 <?php include("../../footer.html"); ?>
 
 <style type="text/css">
-	
+
 	#type {
 	font-family: 'Herr Von Muellerhoff', cursive;
     font-weight: 400;

@@ -47,6 +47,20 @@ if (empty ($canomovil)) {$canomovil = $arreglosSeo["inicio"]["canomovil"];}
           <div class="col-xs-4"></div>
         </div>
 
+
+		<div class="modal-header" style="border-bottom: 1px solid #F3D494;background: url(/images/otrofondoemparejado.jpg)">
+       <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+        <h4 class="modal-title" style="text-align: center;color:#F3D494;    font-family: 'EB Garamond', serif;" >HORARIO ESPECIAL NAVIDEÑO!</h4>
+		<p style="color:#fff;font-size:16px;text-align:center">
+		Dias 24 y 31 de diciembre disponibles hasta las 19:00.<br>
+		Dias 25 de diciembre y 1 de enero estaremos cerrados. 
+		
+		
+		</p>
+
+      </div>
+
+
       </div>
       <!--<div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

@@ -1923,7 +1923,7 @@ h3 + .section_header,
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #ffffff;
+	background: #000000;
 	z-index: 13000;
 	height: 100%;
 }
@@ -1934,7 +1934,8 @@ h3 + .section_header,
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	background: url(../img/preloader.gif) no-repeat 50% 50% transparent;
+	/*background: url(../img/preloader.gif) no-repeat 50% 50% transparent;*/
+	background: url(/images/logoelite2.png) no-repeat 50% 50% transparent;
 	margin: -50px 0 0 -50px;
 }
 
