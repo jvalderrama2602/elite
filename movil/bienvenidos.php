@@ -1,6 +1,55 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 	<section class="ds intro_section" style="height: 620px">
 				<div class="flexslider vertical-nav">
 					<ul class="slides">
+
+
+
+
+						<li data-duration="5000" style="background: url(/movil/images/slidermovil01.jpg);background-position: 30% 0px;max-height: 616px">
+							<div style="height: 100px"></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center text-md-right">
+										<div class="slide_description_wrapper" style="min-height: 600px">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="slideExpandUp">
+													<h1 class="big margin_0">Feliz Año 2019</h1>
+
+												</div>
+												<div class="intro-layer" data-animation="slideExpandUp">
+													<p class="entry-excerpt bottommargin_30">
+														Celebra con champán y tu año será genial. Si quieres un año estelar no te olvides de nuestras escorts que estaremos en un horario especial para ti lo que resta del año. Celebra con una de nuestras chicas lo que resta del año. Felices fiestas y un venturoso año 2019 !
+
+														<a href="#videoStory" class="theme_button color1 topmargin_20" id="videoLink">Ver Video  <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i></a>
+
+<div id="videoStory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+<video width='100%' controls controlsList='nodownload'>
+													  <source src='/images/2019.mp4' type='video/mp4'>
+													</video>
+</div>
+<script type="text/javascript">
+$('#videoLink')
+.magnificPopup({
+	  type:'inline',
+	  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  })
+</script>
+													</p>
+												<!--	<a href="about.html" class="theme_button color1 topmargin_20">About us</a> -->
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
 						<li data-duration="5000" style="background: url(/movil/images/slidermovil01.jpg);background-position: 30% 0px;max-height: 616px">
 							<div style="height: 100px"></div>
 							<div class="container">
@@ -161,7 +210,7 @@
 													<p class="entry-excerpt bottommargin_30">
 													Le invitamos a seguir navegando por la web, donde encontrará información muy detallada, y por supuesto estamos a su entera disposición para cualquier duda o consulta. Procuramos la excelencia en asegurar la confidencialidad para todas las partes, le ofrecemos un servicio de acorde a sus deseos y consensuado con la escort seleccionada.</p>
 													<h2 style="font-family: 'Herr Von Muellerhoff', cursive;
-	font-weight: 400;" class="muellerhoff topmargin_5 bottommargin_50 highlight">Julia Rey</h2>
+													font-weight: 400;" class="muellerhoff topmargin_5 bottommargin_50 highlight">Julia Rey</h2>
 												<!--	<a href="about.html" class="theme_button color1 topmargin_20">About us</a> -->
 												</div>
 											</div>
