@@ -7,49 +7,7 @@
 
 
 
-						<li data-duration="5000" style="background: url(/movil/images/slidermovil01.jpg);background-position: 30% 0px;max-height: 616px">
-							<div style="height: 100px"></div>
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center text-md-right">
-										<div class="slide_description_wrapper" style="min-height: 600px">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="slideExpandUp">
-													<h1 class="big margin_0">Feliz Año 2019</h1>
-
-												</div>
-												<div class="intro-layer" data-animation="slideExpandUp">
-													<p class="entry-excerpt bottommargin_30">
-														Celebra con champán y tu año será genial. Si quieres un año estelar no te olvides de nuestras escorts que estaremos en un horario especial para ti lo que resta del año. Celebra con una de nuestras chicas lo que resta del año. Felices fiestas y un venturoso año 2019 !
-
-														<a href="#videoStory" class="theme_button color1 topmargin_20" id="videoLink">Ver Video  <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i></a>
-
-<div id="videoStory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
-<video width='100%' controls controlsList='nodownload'>
-													  <source src='/images/2019.mp4' type='video/mp4'>
-													</video>
-</div>
-<script type="text/javascript">
-$('#videoLink')
-.magnificPopup({
-	  type:'inline',
-	  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-  })
-</script>
-													</p>
-												<!--	<a href="about.html" class="theme_button color1 topmargin_20">About us</a> -->
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
+						
 						<li data-duration="5000" style="background: url(/movil/images/slidermovil01.jpg);background-position: 30% 0px;max-height: 616px">
 							<div style="height: 100px"></div>
 							<div class="container">
@@ -63,7 +21,7 @@ $('#videoLink')
 												</div>
 												<div class="intro-layer" data-animation="slideExpandUp">
 													<p class="entry-excerpt bottommargin_30">
-														Nos complace presentar la mejor selección de escorts de lujo en Madrid, donde podrá contemplar azafatas acompañantes de alto standing, aunque queremos destacar que no son chicas profesionales tienen diversas ocupaciones, y muchas de ellas son estudiantes universitarias, que ofrecen sus servicios como damas de alto nivel de forma esporádica, por consiguiente, son auténticas señoritas GFE (Girlfriend Experience). Ha llegado el momento de cumplir sus sueños, confiando en nuestra agencia líder en excelencia y discreción.
+													Nos complace presentar la mejor selección de <strong>escorts</strong> de lujo en Madrid, donde podrá contemplar azafatas acompañantes de alto standing, aunque queremos destacar que no son <strong>chicas</strong> profesionales tienen diversas ocupaciones, y muchas de ellas son estudiantes universitarias, que ofrecen sus servicios como <strong>señoritas</strong> de alto nivel de forma esporádica, por consiguiente, son auténticas <strong>damas</strong> GFE (Girlfriend Experience). Ha llegado el momento de cumplir sus sueños, confiando en nuestra agencia líder en excelencia y discreción.
 													</p>
 												<!--	<a href="about.html" class="theme_button color1 topmargin_20">About us</a> -->
 												</div>
@@ -87,14 +45,14 @@ $('#videoLink')
 										<div class="slide_description_wrapper" style="min-height: 600px">
 											<div class="slide_description">
 												<div class="intro-layer" data-animation="slideExpandUp">
-													<h2 class="big margin_0">Fotos 100% Reales</h2>
+													<h2 class="big margin_0">Fotos 100% Reales </h2>
 
 												</div>
 											<div class="intro-layer" data-animation="slideExpandUp">
 													<p class="entry-excerpt bottommargin_30">
-													Todas las fotografías y vídeos de las escorts anunciadas en ELITE ESCORT MADRID, son reales y reflejan su aspecto actual.</p>
+													Todas las fotografías y vídeos de las <strong>escorts</strong> anunciadas en ELITE ESCORT MADRID, son reales y reflejan su aspecto actual. </p>
 
-													<p  class="entry-excerpt bottommargin_30">No pueden mostrar por completo su rostro, lógicamente por temor a ser reconocidas en su ámbito social y laboral, para ellas es muy importante respetar su identidad por discreción personal. Se garantiza que al encuentro acudirá la señorita seleccionada, sino tuviera disponibilidad se comunicaría. Las <strong>Escorts</strong> son totalmente libres para decidir su disponibilidad, por ello te garantizo que la señorita elegida acudirá a la cita porque realmente apetece pasarlo bien, por esta misma razón pedimos comprensión con la disponibilidad de las señoritas.</p>
+													<p  class="entry-excerpt bottommargin_30">No pueden mostrar por completo su rostro, lógicamente por temor a ser reconocidas en su ámbito social y laboral, para ellas es muy importante respetar su identidad por discreción personal. Se garantiza que al encuentro acudirá la señorita seleccionada, sino tuviera disponibilidad se comunicaría. Las <strong>señoritas</strong> son totalmente libres para decidir su disponibilidad, por ello te garantizo que la señorita elegida acudirá a la cita porque realmente apetece pasarlo bien, por esta misma razón pedimos comprensión con la disponibilidad de las señoritas.</p>
 
 												<!--	<a href="about.html" class="theme_button color1 topmargin_20">About us</a> -->
 												</div>
@@ -117,7 +75,7 @@ $('#videoLink')
 										<div class="slide_description_wrapper" style="min-height: 600px">
 											<div class="slide_description">
 												<div class="intro-layer" data-animation="slideExpandUp">
-													<h2 class="big margin_0">Una de las mejores agencias <strong>escorts</strong> de lujo en España.</h2>
+													<h2 class="big margin_0">	Una de las mejores agencias <strong>escorts</strong> de lujo en España.</h2>
 
 												</div>
 											<div class="intro-layer" data-animation="slideExpandUp">
@@ -151,7 +109,7 @@ $('#videoLink')
 												</div>
 											<div class="intro-layer" data-animation="slideExpandUp">
 													<p class="entry-excerpt bottommargin_30">
-													Si desea reservar una de las escorts de lujo, nos tiene a su disposición en la ciudad de madrid, ofrecemos completa discreción y seriedad, si ha soñado con pasar tiempo con una mujer increíblemente y adorable, que sabe cómo comportarse en cualquier situación social y por supuesto en la intimidad, pero no dispone de tiempo para seleccionar la acompañante ideal, Elite escort madrid le ofrece el servicio para encontrar la chica más idónea en su caso, cuando reservas a una de nuestras exquisitas damas de Madrid, lo puedes hacer en el idioma que prefieras, español, inglés, siempre responderemos en el idioma que usted entienda bien, lo más importante para nosotras es que tenga una grata experiencia con las mejores chicas GFE de alto standing de España, no es de extrañar que usted se sorprenda agradablemente de nuestra seriedad en la gestión.</p>
+													Si desea reservar una de nuestras <strong>escorts</strong> de lujo, nos tiene a su disposición en la ciudad de madrid, ofrecemos completa discreción y seriedad. Si has soñado con pasar tiempo con una mujer increíble e implicada, que sabe como comportarse en cualquier situación social y por supuesto en la intimidad, pero no dispone de tiempo para seleccionar la acompañante ideal, élite escort Madrid le ofrece el servicio para encontrar la chica más idónea en su caso, lo más importante para nosotras es que tenga una grata experiencia con las mejores escort GFE de alto standing de españa, no es de extrañar que usted se sorprenda agradablemente de nuestra seriedad en la gestión.</p>
 
 												<!--	<a href="about.html" class="theme_button color1 topmargin_20">About us</a> -->
 												</div>
@@ -180,7 +138,7 @@ $('#videoLink')
 												</div>
 											<div class="intro-layer" data-animation="slideExpandUp">
 													<p class="entry-excerpt bottommargin_30">
-													En Eliteescortmadrid.com, procuramos que usted únicamente disfrute de la experiencia sin estrés, en cualquier escenario que tenga en mente, ya que los servicios de calidad Premium marcan la diferencia, salir con las preciosas señoritas nada tiene que ver con una cita “normal” ya que las escorts españolas GFE igualmente que las internacionales, están predispuestas a que usted tenga un recuerdo gratificante, sea en una cita corta de tiempo, como en compartir una velada cenando o cualquier plannig que tenga en mente proponer. ¿Desea conocer una joven o no tan joven, y pasar un rato tranquilo y erótico con ella, en su casa o en su hotel? Ella estaría feliz de compartir su tiempo con usted. ¿Estás más interesado en una noche completa?, para cenar, tomar unas copas y lo que surja, ¿tal vez usted desea otra cosa? Bien, no hay problema, le escuchamos con atención, tenga en consideración que son chicas de lujo de nivel alto.</p>
+													En Eliteescortmadrid.com, procuramos que usted únicamente disfrute de la experiencia sin estrés, en cualquier escenario que tenga en mente, ya que los servicios de calidad Premium marcan la diferencia, salir con las preciosas señoritas nada tiene que ver con una cita “normal” ya que las <strong>escorts</strong> están predispuestas a que usted tenga un recuerdo gratificante, sea en una cita corta de tiempo, como en compartir una velada cenando o cualquier plannig que tenga en mente proponer. ¿Desea conocer una joven o no tan joven, y pasar un rato tranquilo y erótico con ella, en su casa o en su hotel? Ella estaría feliz de compartir su tiempo con usted. ¿Estás más interesado en una noche completa?, para cenar, tomar unas copas y lo que surja, ¿tal vez usted desea otra cosa? Bien, no hay problema, le escuchamos con atención, tenga en consideración que son <strong>escorts</strong> de lujo de nivel alto.</p>
 
 												<!--	<a href="about.html" class="theme_button color1 topmargin_20">About us</a> -->
 												</div>

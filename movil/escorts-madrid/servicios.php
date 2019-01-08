@@ -74,8 +74,8 @@
 									<div class='media small-teaser'>
 									<li class='list-item'>
 									<h3 class="widget-title">Puedes pagar con:</h3><br>
-									 <i style="font-size:24px" class="fa fa-cc-visa"></i>
-									<i style="font-size:24px" class="fa fa-cc-mastercard"></i>
+									<a style="color:#000000;background:#ffdf9c;border: 1px solid #ffdf9c " href="https://eventosejecutivosmadrid.com/producto/servicio-de-evento/" target="_blank" class="theme_button color1 topmar1gin_20"><i style="font-size:24px" class="fa fa-cc-visa"></i>
+									<i style="font-size:24px" class="fa fa-cc-mastercard"></i></a>
 									</li>
 
 								</div>

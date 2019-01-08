@@ -16,43 +16,6 @@ $filabien = $resul_bienvenido -> fetch_array();
 
 										<div class="col-md-6">
 											<div class="item-media entry-thumbnail">
-
-
-
-
-												<p style="text-align: center;padding-left: 40px;padding-top: 40px;">
-													<!--<img src="/images/home01.jpg" alt=<?php print $strCaption ?>>-->
-													<video width='100%' controls controlsList='nodownload'>
-													  <source src='/images/2019.mp4' type='video/mp4'>
-													</video>
-												</p>
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="item-content .about-content">
-												<h2 class="big topmargin_0 bottommargin_30">
-													Feliz año  <span class="highlight">2019</span>
-												</h2>
-												<p>Celebra con champán y tu año será genial. Si quieres un año estelar no te olvides de nuestras escorts que estaremos en un horario especial para ti lo que resta del año. Celebra con una de nuestras chicas lo que resta del año. Felices fiestas y un venturoso año 2019 ! </p>
-
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-							</article>
-
-
-							<article class="post format-small-image with_background">
-
-								<div class="side-item content-padding">
-
-									<div class="row">
-
-										<div class="col-md-6">
-											<div class="item-media entry-thumbnail">
 												<p style="text-align: center;padding-left: 40px;padding-top: 40px;"><img src="/images/home01.jpg" alt=<?php print $strCaption ?>></p>
 											</div>
 										</div>
@@ -60,7 +23,7 @@ $filabien = $resul_bienvenido -> fetch_array();
 										<div class="col-md-6">
 											<div class="item-content .about-content">
 												<h2 class="big topmargin_0 bottommargin_30">
-													Agencia de Escorts <span class="highlight">Elite Escort Madrid</span>
+													Agencia de Escorts <span class="highlight">Elite  Escort Madrid</span>
 												</h2>
 												<p>Nos complace presentar la mejor selección de <strong>escorts</strong> de lujo en Madrid, donde podrá contemplar azafatas acompañantes de alto standing, aunque queremos destacar que no son <strong>chicas</strong> profesionales tienen diversas ocupaciones, y muchas de ellas son estudiantes universitarias, que ofrecen sus servicios como <strong>señoritas</strong> de alto nivel de forma esporádica, por consiguiente, son auténticas <strong>damas</strong> GFE (Girlfriend Experience). Ha llegado el momento de cumplir sus sueños, confiando en nuestra agencia líder en excelencia y discreción.</p>
 

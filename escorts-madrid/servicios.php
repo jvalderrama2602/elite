@@ -71,8 +71,10 @@
 										  ?>
 								<div class='media small-teaser'>
 									<li class='list-item'>
-									Puedes pagar con: <i style="font-size:24px" class="fa fa-cc-visa"></i>
-									<i style="font-size:24px" class="fa fa-cc-mastercard"></i>
+									<strong>Puedes pagar con:</strong><br>
+									<a style="color:#000000;background:#ffdf9c;border: 1px solid #ffdf9c " href="https://eventosejecutivosmadrid.com/producto/servicio-de-evento/" target="_blank" class="theme_button color1 topmar1gin_20"><i style="font-size:24px" class="fa fa-cc-visa"></i>
+									<i style="font-size:24px" class="fa fa-cc-mastercard"></i> </a>
+									
 									</li>
 
 								</div>
@@ -101,7 +103,7 @@
 									<li class='list-item'>
 									Otros servicios consultar
 									</li>
-									<img src="/images/PEGATINA.png">
+									<img src="/images/PEGATINA.png" alt="Escorts Premium en Madrid">
 								</div>"
 			</div>
 		</div>
@@ -118,10 +120,10 @@
 										for($i = 0; $i < $cantidad;$i++)
 										{
 											echo "<div class='media small-teaser'>
-									<li class='list-item'>
-									 $gusto[$i]
-									</li>
-								</div>";
+											<li class='list-item'>
+											$gusto[$i]
+											</li>
+											</div>";
 										}
 
 										  ?>

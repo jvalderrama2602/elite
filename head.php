@@ -32,7 +32,7 @@ document.location="<?php print $canomovil ?>";
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/main.min.css?v=5"> <!--id="color-switcher-link"-->
+	<link rel="stylesheet" href="/css/main.min.css?v=6"> <!--id="color-switcher-link"-->
 	<link rel="stylesheet" href="/css/animations.css">
 	<link rel="stylesheet" href="/css/fonts.css">
 	<script src="/js/vendor/modernizr-2.6.2.min.js"></script>
@@ -169,7 +169,7 @@ a.close {
     padding-bottom:20px;
     width:100%;
     text-align:center;
-    min-height:150px;
+    min-height:40px;
     background-color: rgba(0, 0, 0, 0.5);
     color:#fff;
     z-index:99999;
