@@ -8,11 +8,14 @@ $user = $_POST['user1'];
 $correocliente = $_POST['correocliente'];
 $iduser = $_POST['iduser'];
 $resultado2 = $_POST['c_reservas'];
+$fecha = $_POST['fecha'];
+$hora = $_POST['hora'];
+$comentario = $_POST['comentario'];
 
 ///////////// REGISTRO BD//////////////
 
-  $consulta = "INSERT INTO reservas VALUES ('','$iduser','$promo','$user')";
-  mysqli_query($conex, $consulta)or die(mysqli_error($db));
+  $consulta = "INSERT INTO reservas (id_user,nombre_reserva,nombre_user,fecha,hora,comentario) VALUES ('$iduser','$promo','$user','$fecha','$hora','$comentario')";
+  mysqli_query($conex, $consulta)or die(mysqli_error($conex));
 
     /////////////////         ENVIAR CORREO        //////////////////////////
 
@@ -29,11 +32,23 @@ $resultado2 = $_POST['c_reservas'];
 
     $body = '<strong>Nueva Reserva de <br></strong>'
      .$user.
-     '<br><strong>Desea la promocion</strong><br>'
+     '<br>
+     <strong>Desea la promocion</strong><br>'
       .$promo.'<br>
-
-      <strong>Correo de contacto</strong><br>'
-       .$correocliente. '';
+      <strong>Fecha Reserva</strong><br>'
+      .$fecha.'<br>
+      <strong>Hora Reserva</strong><br>'
+      .$hora.'<br>
+      <strong>Comentario</strong><br>'
+      .$comentario.'<br>
+      <strong>Correo del cliente</strong><br>'
+       .$correocliente. ''
+       
+       
+       
+       
+       
+       ;
 
 
 

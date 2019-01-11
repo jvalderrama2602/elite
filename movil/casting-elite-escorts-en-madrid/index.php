@@ -295,7 +295,7 @@ $( document ).ready(function() {
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Edad</label>
-								<input type="number" class="form-control" id="edad" name="edad" maxlength="2" />
+								<input type="number" class="form-control" id="edad" name="edad"  />
 							</div>
 							<div class="form-group">
 								<label for="exampleInputPassword1">Teléfono</label>
@@ -309,7 +309,7 @@ $( document ).ready(function() {
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Horario disponible</label>
-								<input type="number" class="form-control" id="horario" name="horario" maxlength="2" />
+								<input type="text" class="form-control" id="horario" name="horario" />
 							</div>
 							<div class="form-group">
 								<label for="exampleInputPassword1">Mostrarías tu cara?</label>
@@ -446,11 +446,6 @@ $( document ).ready(function() {
 
 								</div>
 							</div>
-
-
-
-
-
 						<div style="text-align: center;margin-top: 30px;margin-bottom: 20px">
 			<button type="button" class="theme_button color1" onclick="btn_enviar_casting()">Enviar</button>
 		</div>
@@ -485,6 +480,78 @@ $( document ).ready(function() {
 				</div>
 
 			</section>
+
+
+<!-- Modal -->
+<div id="esperar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div style="background: #000000;border: 1px solid #F3D494;" class="modal-content">
+      <div class="modal-header" style="border-bottom: 1px solid #F3D494;background: url(/images/otrofondoemparejado.jpg)">
+       <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+        <h4 class="modal-title" style="text-align: center;color:#F3D494;    font-family: 'EB Garamond', serif;" >Espere Por favor!</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-12">
+          	<p style="color: #fff; text-align: justify;">En función de su conexión y del tamaño de las imágenes, la carga puede tardar un poco. Por favor, tenga paciencia. Gracias. </p>
+ 			
+	</p>
+
+	</p>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-2"></div>
+          <div class="col-xs-4"></div>
+        </div>
+
+      </div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>-->
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div id="exito" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div style="background: #000000;border: 1px solid #F3D494;" class="modal-content">
+      <div class="modal-header" style="border-bottom: 1px solid #F3D494;background: url(/images/otrofondoemparejado.jpg)">
+       <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+        <h4 class="modal-title" style="text-align: center;color:#F3D494;    font-family: 'EB Garamond', serif;" >Su mensaje se envió correctamente</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-12">
+          	<p style="color: #fff; text-align: justify;">Te contactaremos </p>
+ 			
+	</p>
+
+	</p>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-2"></div>
+          <div class="col-xs-4"></div>
+        </div>
+
+      </div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>-->
+    </div>
+
+  </div>
+</div>
 
 
 
@@ -744,6 +811,8 @@ function btn_enviar_casting()
 						document.getElementById("info6").innerHTML = ['Haz Click para subir una foto'].join('');
                         document.getElementById("info6").classList.remove('foto');
                         document.getElementById("info6").classList.add('subir');
+
+						$('#exito').modal('show');
 					}
 					else
 					{  alert('No se pudo enviar contacte con el administrador');  }

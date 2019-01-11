@@ -29,8 +29,20 @@ if (empty ($youtube)) {$youtube = $arreglosSeo["promociones"]["youtube"];}
 <!--<![endif]-->
 <?php include("head.php"); ?>
 <body ondragstart="return false" onselectstart="return false" oncontextmenu="return false"> <!--ondragstart="return false" onselectstart="return false" oncontextmenu="return false"-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment-with-locales.min.js"></script>
+<link href="/css/datetimepicker.css" rel="stylesheet">
+<script src="/js/datetimepicker.js"></script>
+
+
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+
+
+
 
 <script type="text/javascript">
 function typeEffect(element, speed) {
@@ -59,6 +71,8 @@ var delay = $('#h22').text().length * speed + speed;
   }, delay);*/
 });
 </script>
+
+
 <?php include("cabecera.html");?>
 
 
@@ -428,15 +442,26 @@ $('#videoLink')
        <form id="formulario_reserva1" name="formulario_reserva1">
        	<input style="background:#000000;color: #ffffff;font-size: 22px;text-align: center" type="text" name="user1" id="user1" readonly value="<?php echo $nombrecliente; ?>">
        <p style="color: #ffffff;font-size: 18px;line-height: 40px;text-align: center"> Estas reservando </p>
-       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff">
+       <h3 class="big topmargin_0 bottommargin_30" style="color: #ffffff;margin-bottom:0px">
     	Reina de	<span class="highlight">La semana</span>
 	   </h3>
 	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $desc1;?> 1 hora  150€</textarea>
+       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 30px;text-align: center"><?php echo $desc1;?> 1 hora  150€</textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>		
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
+
+			
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0;color: #000;background-color: #FFDF9C;" onclick="correo_reserva_1()">Confirmar</button>
       </div>
@@ -444,6 +469,14 @@ $('#videoLink')
     </div>
   </div>
 </div>
+<style>
+.blanco{
+	color: #ffffff;font-size: 18px;line-height: 40px;text-align: center
+}
+</style>
+
+
+
 
 
 <!-------    VENTANA RESERVAR 2    --->
@@ -466,7 +499,16 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Escort favorita 2 horas 300€" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center">Escoje tu escort favorita por 300€</textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center">Escoje tu escort favorita por 300€</textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -497,7 +539,17 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Premio a tu fidelidad" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center">Te informaremos que premio te ganaste por tu fidelidad</textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center">Te informaremos que premio te ganaste por tu fidelidad</textarea>
+			 
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -528,7 +580,16 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Promoción para insaciables" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center">Prepara dos citas consecutivas. Dos escorts y dos horas continuas</textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center">Prepara dos citas consecutivas. Dos escorts y dos horas continuas</textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -559,7 +620,16 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Promoción para románticos" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center">2 horas de Cena + 2 horas de intimidad + botella de champagne 600€. 4 horas</textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center">2 horas de Cena + 2 horas de intimidad + botella de champagne 600€. 4 horas</textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -590,7 +660,16 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Promoción Semanal <?php echo $precio;  ?>" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $desc2;?></textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $desc2;?></textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -621,7 +700,16 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc2"];?> 1 hora  150€</textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc2"];?> 1 hora  150€</textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -652,7 +740,16 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc3"];?> 1 hora  150€</textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc3"];?> 1 hora  150€</textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -683,7 +780,16 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc4"];?> 1 hora  150€</textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc4"];?> 1 hora  150€</textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -714,7 +820,16 @@ $('#videoLink')
 	   <input type="text" name="promo" id="promo" value="Reina de la semana" style="display: none">
 	   <input type="text" name="correocliente" id="correocliente" value="<?php echo $correocliente; ?>" style="display: none">
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
-       <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc5"];?> 1 hora  150€</textarea>
+			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc5"];?> 1 hora  150€</textarea>
+			 <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -747,6 +862,15 @@ $('#videoLink')
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc6"]; 
 			 echo $arreglosSeo["promociones"]["precio6"];?></textarea>
+			  <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -779,6 +903,15 @@ $('#videoLink')
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc7"]; 
 			 echo $arreglosSeo["promociones"]["precio7"];?></textarea>
+			  <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -811,6 +944,15 @@ $('#videoLink')
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc8"]; 
 			 echo $arreglosSeo["promociones"]["precio8"];?></textarea>
+			  <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -843,6 +985,15 @@ $('#videoLink')
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc9"]; 
 			 echo $arreglosSeo["promociones"]["precio9"];?></textarea>
+			  <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -875,6 +1026,15 @@ $('#videoLink')
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc10"]; 
 			 echo $arreglosSeo["promociones"]["precio10"];?></textarea>
+			  <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -907,6 +1067,15 @@ $('#videoLink')
 	   <input type="text" name="iduser" id="iduser" value="<?php echo $idclientes; ?>" style="display: none">
 			 <textarea readonly size="160" style="width:100%;background:#000000;color: #ffffff;font-size: 15px;line-height: 40px;text-align: center"><?php echo $arreglosSeo["promociones"]["desc11"]; 
 			 echo $arreglosSeo["promociones"]["precio11"];?></textarea>
+			  <div class="col-md-6">
+			 <p class="blanco">Seleccione Fecha:  </p><input type="date" id="fecha" name="fecha" >	
+			 </div>
+		   <div class="col-md-6">
+		   <p class="blanco">Seleccione Hora:  </p><input type="time" id="hora" name="hora" >
+
+		   </div>
+		<p class="blanco">Ingrese un Comentario:  </p>
+		<textarea id="comentario" name="comentario" size="160" style="width:80%;background:#ffffff;color: #000000;font-size: 15px;line-height: 30px;text-align: center"></textarea>	
      </div>
       <div class="modal-footer" style="border-top: 1px solid #332D1F;background-image: url(/images/otrofondoemparejado.jpg);color: #FFDF9C; ">
         <button type="button" class="btn btn-primary" style="margin: 0 0px 0px 0; color: #000;background-color: #FFDF9C;" data-dismiss="modal">Salir</button>
@@ -1029,14 +1198,20 @@ function reservar_16(){
 
 function correo_reserva_1()
 {
-			var datastring = $("#formulario_reserva1").serialize();
-			$.ajax({
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
+
+				var datastring = $("#formulario_reserva1").serialize();
+				$.ajax({
 				url: "reservar.php",
 		        type: "post",
 		        data: datastring ,
 		        async: false,
 		        success: function(data)
 		        {
+							
 		        	if(data==1)
 		        	{
 		        		alert('Se produjo un error');
@@ -1048,11 +1223,25 @@ function correo_reserva_1()
 		        		$('#reservar1').modal('hide');
 		        	}
 		        }
-			});
+			});	
+
+
+
+			}else{alert("Debe completar todos los campos")}
+
+
+
+	
 		}
 
 function correo_reserva_2()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
+
+
 			var datastring = $("#formulario_reserva2").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1073,9 +1262,14 @@ function correo_reserva_2()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 function correo_reserva_3()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva3").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1096,10 +1290,15 @@ function correo_reserva_3()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 function correo_reserva_4()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva4").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1120,10 +1319,15 @@ function correo_reserva_4()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 function correo_reserva_5()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva5").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1144,10 +1348,16 @@ function correo_reserva_5()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 function correo_reserva_6()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
+	
 			var datastring = $("#formulario_reserva6").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1168,10 +1378,16 @@ function correo_reserva_6()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 function correo_reserva_7()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
+	
 			var datastring = $("#formulario_reserva7").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1192,9 +1408,15 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 		function correo_reserva_8()
 {
+
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva8").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1215,10 +1437,15 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 			function correo_reserva_9()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva9").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1239,10 +1466,16 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 				function correo_reserva_10()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
+
 			var datastring = $("#formulario_reserva10").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1263,10 +1496,16 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 						function correo_reserva_11()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
+
 			var datastring = $("#formulario_reserva11").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1287,10 +1526,16 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 								function correo_reserva_12()
 {
+
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva12").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1311,10 +1556,15 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 								function correo_reserva_13()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva13").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1335,10 +1585,15 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 						function correo_reserva_14()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva14").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1359,9 +1614,14 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 		function correo_reserva_15()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva15").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1382,10 +1642,15 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 
 						function correo_reserva_16()
 {
+			var fecha = document.getElementById("fecha").value;
+			var hora = document.getElementById("hora").value;
+			var comentario = document.getElementById("comentario").value; 
+			if(fecha !=="" && hora  !=="" && comentario !=="" ){
 			var datastring = $("#formulario_reserva16").serialize();
 			$.ajax({
 				url: "reservar.php",
@@ -1406,6 +1671,7 @@ function correo_reserva_7()
 		        	}
 		        }
 			});
+		}else{alert("Debe completar todos los campos")}
 		}
 </script>
 
