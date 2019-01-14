@@ -1,3 +1,4 @@
+
 <?php
 $consulta = "SELECT * FROM escorts WHERE nombre='".$nombre2."'";
 $resultado= $conex->query($consulta);
@@ -8,6 +9,8 @@ $resultado= $conex->query($consulta);
 		border: 1px solid #D1A254;
 			}
 </style>
+
+<?php include ("panchicas.php") ?>
 <section class="ds parallax calltoaction section_pad1ding_100" style="background-image:url(/images/background.jpg)">
 
 <div class="container-fluid">

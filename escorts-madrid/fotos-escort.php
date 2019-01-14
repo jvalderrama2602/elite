@@ -1,4 +1,4 @@
-
+<?php include ("pan.php") ?>
 <style>
 	.texto-blanco{color:#ffffff;}
 	.texto-blanco:hover{color:#D5BD53;}

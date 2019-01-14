@@ -271,12 +271,11 @@ $arreglosSeo = array(
 "youtube" => "QNjoZ_I5HGw",
 
 
-"titulo1"=> "Marta",
-"desc1" => "Marta es una apuesta segura, una de las chicas más guapas que he conocido, todo en ella es expectacular, su rostro, su cuerpo natural, su carácter y actitud y cómo máxima su implicación.
-Es una escort muy recomendable y por la que recibo muchas felicitaciones. Si no la conoces no puedes dejarla escapar y si ya has disfrutado de sus encantos seguro que quieres repetir.",
-"precio1" => "1 Hora con Marta 150€",
+"titulo1"=> "Sandra",
+"desc1" => "Sandra a pesar de ser joven es toda una mujer, elegante y con clase, una chica natural, inteligente y secilla. Desde luego es una chica a tener en cuenta a la hora de elegir, su especialidad es el trato de novia dado su implicación y con abunantes y apasionados besos.
+<br>Si no la conoces o quieres volver a verla",
 "video1" => "",
-"imagen1" => "/images/Marta/promo-marta.jpg",
+"imagen1" => "/images/Sandra-Madrid.jpg",
 
 "titulo1_temp"=> "Carla",
 "desc1_temp" => "Carla es una chica fantástica con un cuerpo expectacular, divertida, alta y con grandes pechos naturales. Los que la conocen saben que lo mejor de ella es su implicación, siempre trata de agradar y disfruta tanto cómo tú. Si ya la conoces y quieres repetir o conocer a una de las que sin duda será una de tus escorts preferidas aprovéchate y llama para conocerla.",
@@ -310,11 +309,12 @@ Es una escort muy recomendable y por la que recibo muchas felicitaciones.<br>Si 
 "video5" => "",
 "imagen5" => "/images/Sandra-Madrid.jpg",
 /*PROMCION SEMANAL*/
-"titulo7"=> "Tienes tiempo libre?",
-"desc7" => "Esta semana Carla os regala 15 minutos más extra de masaje o lo quieras",
-"precio7" => "15 Minutos Extras",
+/*PROMO ACTIVA*/
+"titulo7"=> "Que te parecen dos chicas para ti",
+"desc7" => "Esta semana sólo para ti disfruta de la compañía de dos de nuestras guapas escort por una tarifa de locura.",
+"precio7" => "Una hora de dúplex por 320€",
 "video7" => "",
-"imagen7" => "/images/Carla/promo-carla.jpg",
+"imagen7" => "/images/Duplex/promo-duplex.jpg",
 
 "titulo6"=> "Tienes tiempo libre?",
 "desc6" => "Esta semana Carla os regala 15 minutos más extra de masaje o lo quieras",
