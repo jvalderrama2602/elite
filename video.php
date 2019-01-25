@@ -24,7 +24,7 @@
 											</a>
 										</span>
 									</div>-->
-									<video controls="" src="/images/EliteScortVideo.mp4" poster="/images/fondo-escorts.jpg" width="100%">
+									<video controls="" src="/images/web.mp4" poster="/images/portada-video.jpg" width="100%">
 
 Sorry, your browser doesn't support embedded videos,
 but don't worry, you can <a href="https://archive.org/details/BigBuckBunny_124">download it</a>

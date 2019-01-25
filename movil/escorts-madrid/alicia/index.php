@@ -22,6 +22,7 @@ $resultado= $conex->query($consulta);
 <!--<![endif]-->
 <?php include("../../head.php"); ?>
 
+
 <body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
 
 <?php include("../../cabecera.html"); ?>

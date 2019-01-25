@@ -229,7 +229,7 @@ $filabien = $resul_bienvenido -> fetch_array();
 								<?php echo $filabien['texto'];  ?>
 								</div>
 							</div>-->
-								<video controls controlslist="nodownload" src="/images/EliteScortVideo.mp4" poster="/images/fondo-escorts.jpg" width="100%"></video>
+								<video controls controlslist="nodownload" src="/images/web.mp4" poster="/images/portada-video.jpg" width="100%"></video>
 						</div>
 					</div>
 				</div>

@@ -245,7 +245,7 @@ $('#videoLink')
 
 									</div>
 
-									<div class="row">
+									<!--<div class="row">
 											<div class="col-md-6">
 											<div class="item-content .about-content">
 												<h2 class="big topmargin_0 bottommargin_30" style="font-size: 40px;line-height: 1;	" >
@@ -262,7 +262,7 @@ $('#videoLink')
 											</div>
 										</div>
 									</div>
-								</div>
+								</div>-->
 							</article>
 							<article class="post format-small-image with_background">
 								<div class="side-item content-padding">

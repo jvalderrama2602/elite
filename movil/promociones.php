@@ -173,14 +173,14 @@ $('#videoLink')
 									</div>
 								</div>
 
-								<div class="col-sm-12 bottommargin_40">
+								<!--<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">
 										<div class="row">
 											<div class="col-md-4">
 												<div class="item-media">
 													<img src="/images/Carlalibro.jpg" alt="">
 													<div class="media-links">
-													<!--	<a class="abs-link" title="" href="event-single-left.html"></a>-->
+													<!- -	<a class="abs-link" title="" href="event-single-left.html"></a>- ->
 													</div>
 												</div>
 											</div>
@@ -201,7 +201,7 @@ $('#videoLink')
 											</div>
 										</div>
 									</div>
-								</div>
+								</div>-->
 
 								<div class="col-sm-12 bottommargin_40">
 									<div class="side-item event-item content-padding with_background">

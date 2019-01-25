@@ -271,11 +271,16 @@ $arreglosSeo = array(
 "youtube" => "QNjoZ_I5HGw",
 
 
-"titulo1"=> "Sandra",
-"desc1" => "Sandra a pesar de ser joven es toda una mujer, elegante y con clase, una chica natural, inteligente y secilla. Desde luego es una chica a tener en cuenta a la hora de elegir, su especialidad es el trato de novia dado su implicación y con abunantes y apasionados besos.
-<br>Si no la conoces o quieres volver a verla",
+"titulo1"=> "Lia",
+"desc1" => "Chica sensual, bella y seductora. Le gusta mucho cuidar su hermoso cuerpo. Es muy divertida y dulce combinado con un carácter lujurioso. Hará que te sientas en compañia de la mejor novia con la que nunca haz soñado.",
 "video1" => "",
-"imagen1" => "/images/Sandra-Madrid.jpg",
+"imagen1" => "/images/promo-lia.jpg",
+
+"temp1"=> "Sandra",
+"temp_desc1" => "Sandra a pesar de ser joven es toda una mujer, elegante y con clase, una chica natural, inteligente y secilla. Desde luego es una chica a tener en cuenta a la hora de elegir, su especialidad es el trato de novia dado su implicación y con abunantes y apasionados besos.
+<br>Si no la conoces o quieres volver a verla",
+"temp_video1" => "",
+"temp_imagen1" => "/images/Sandra-Madrid.jpg",
 
 "titulo1_temp"=> "Carla",
 "desc1_temp" => "Carla es una chica fantástica con un cuerpo expectacular, divertida, alta y con grandes pechos naturales. Los que la conocen saben que lo mejor de ella es su implicación, siempre trata de agradar y disfruta tanto cómo tú. Si ya la conoces y quieres repetir o conocer a una de las que sin duda será una de tus escorts preferidas aprovéchate y llama para conocerla.",
@@ -308,13 +313,21 @@ Es una escort muy recomendable y por la que recibo muchas felicitaciones.<br>Si 
 "precio5" => "1 Hora con Sandra 150€",
 "video5" => "",
 "imagen5" => "/images/Sandra-Madrid.jpg",
+
+"titulo1tmp"=> "Lia",
+"desc1tmp" => "Chica sensual, bella y seductora. Le gusta mucho cuidar su hermoso cuerpo. Es muy divertida y dulce combinado con un carácter lujurioso. Hará que te sientas en compañia de la mejor novia con la que nunca haz soñado.",
+"video1tmp" => "",
+"imagen1tmp" => "/images/promo-lia.jpg",
+
+
+
 /*PROMCION SEMANAL*/
 /*PROMO ACTIVA*/
-"titulo7"=> "Que te parecen dos chicas para ti",
-"desc7" => "Esta semana sólo para ti disfruta de la compañía de dos de nuestras guapas escort por una tarifa de locura.",
-"precio7" => "Una hora de dúplex por 320€",
+"titulo7"=> "Vente con un amigo",
+"desc7" => "Aprovecha esta semana ésta fantástica promoción y vente con un amigo, elegir chicas y disfrutar con cada una de ellas",
+"precio7" => "150€",
 "video7" => "",
-"imagen7" => "/images/Duplex/promo-duplex.jpg",
+"imagen7" => "/images/promo-amigo.jpg",
 
 "titulo6"=> "Tienes tiempo libre?",
 "desc6" => "Esta semana Carla os regala 15 minutos más extra de masaje o lo quieras",

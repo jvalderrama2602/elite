@@ -28,11 +28,14 @@ document.location="<?php print $canomovil ?>";
   <meta name="twitter:title" content="<?php print $strTitle; ?>"/>
   <meta name="twitter:site" content="@v4ld3rr4m4"/>
   <meta name="twitter:creator" content="@v4ld3rr4m4"/>
-
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	
 	<!--<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">-->
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/main.min.css?v2"> <!--id="color-switcher-link"-->
+	<link rel="stylesheet" href="/css/main.min.css?v4"> <!--id="color-switcher-link"-->
 	<link rel="stylesheet" href="/css/animations.css">
 	<link rel="stylesheet" href="/css/fonts.css">
 	<script src="/js/vendor/modernizr-2.6.2.min.js"></script>
